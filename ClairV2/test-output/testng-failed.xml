@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [V2TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="tests.MoveMoney">
+        <methods>
+          <include name="BankTransfer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.MoveMoney -->
+      <class name="tests.CardConfirmation">
+        <methods>
+          <include name="ConfirmThatCard"/>
+          <include name="setup"/>
+          <include name="ConfirmCardLogin"/>
+        </methods>
+      </class> <!-- tests.CardConfirmation -->
+      <class name="tests.CardActivation">
+        <methods>
+          <include name="ActivationPINSetting"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CardActivation -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [V2TestSuite] -->
