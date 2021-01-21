@@ -3,7 +3,7 @@
 <suite name="V2TestSuite">
   <test thread-count="8" name="RegressionTest" preserve-order="true">
     <classes>
-      <!-- class name="tests.Signup" -->
+      <class name="tests.Signup"/>
       <class name="tests.LogIn"/>
       <class name="tests.SavingsScreen"/>
       <class name="tests.MoveToSpending"/>
