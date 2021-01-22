@@ -64,7 +64,7 @@ public class CardActivation extends BaseClass {
 	public void ActivationPINSetting() {
 		
 		
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		MobileElement e71 = (MobileElement)driver.findElementByXPath("//hierarchy/"
 				+ "android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/"
 				+ "android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/"

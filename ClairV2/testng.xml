@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="V2TestSuite">
   <test thread-count="8" name="RegressionTest" preserve-order="true">
+  <parameter name="deviceName" value="Google Pixel" />
+             <parameter name="udid" value="92FAY00ZVX" />
+             <parameter name="platformVersion" value="10" />
+             <parameter name="url" value="http://127.0.0.1:4723/wd/hub" />
     <classes>
       <class name="tests.Signup"/>
       <class name="tests.LogIn"/>

@@ -60,10 +60,10 @@ public class CardConfirmation extends BaseClass {
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
-		MobileElement confirmCard3 = (MobileElement)driver.findElementByAccessibilityId("modalCloseIcon"); 
-		confirmCard3.click();
-		
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+//		MobileElement confirmCard3 = (MobileElement)driver.findElementByAccessibilityId("modalCloseIcon"); 
+//		confirmCard3.click();
+//		
+//		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 //		
 //		MobileElement confirmCard3 = (MobileElement)driver.findElementByAccessibilityId("cardArrivalActivate"); 
