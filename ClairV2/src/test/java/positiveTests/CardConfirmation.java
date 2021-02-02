@@ -60,11 +60,7 @@ public class CardConfirmation extends BaseClass {
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
-		MobileElement confirmCard3 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
-				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]"
-				+ "/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]"
-				+ "/android.view.ViewGroup[2]"); 
-		confirmCard3.click();
+		
 		
 		
 //		MobileElement confirmCard3 = (MobileElement)driver.findElementByAccessibilityId("modalCloseIcon"); 
