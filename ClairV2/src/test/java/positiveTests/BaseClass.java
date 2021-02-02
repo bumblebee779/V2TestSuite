@@ -1,4 +1,4 @@
-package tests;
+package positiveTests;
 
 import org.testng.annotations.BeforeTest;
 
@@ -28,7 +28,7 @@ public class BaseClass{
 		
 		cap.setCapability("appPackage", "com.clair.clairpay");
 		cap.setCapability("appActivity", "host.exp.exponent.MainActivity");
-		cap.setCapability(MobileCapabilityType.APP, "/Users/lubna/Downloads/clair-a6dd4744e93b4fac93f8cda33e64c0e5-signed.apk" );
+		cap.setCapability(MobileCapabilityType.APP, "/Users/lubna/Downloads/clair-b7ae00cf665245f9ba38f72d2226311a-signed.apk");
 		
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");
 		driver = new AppiumDriver<MobileElement>(url, cap);

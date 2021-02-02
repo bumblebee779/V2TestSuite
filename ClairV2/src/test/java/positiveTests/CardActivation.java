@@ -1,4 +1,4 @@
-package tests;
+package positiveTests;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
@@ -12,6 +12,7 @@ public class CardActivation extends BaseClass {
 	//handles the activate now button on the card activation screen
 	@Test (priority =1)
 	public void ActivateCardScreen() {		
+		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		MobileElement e63 = (MobileElement)driver.findElementByAccessibilityId("bannerCardActivation"); 
@@ -114,6 +115,9 @@ public class CardActivation extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		driver.resetApp();
+		
+		LogIn card = new LogIn();
+		card.Login();
 	}
 	//all other screens in the card activation process
 	public void CardActOtherScreens() {
@@ -122,6 +126,7 @@ public class CardActivation extends BaseClass {
 		
 		MobileElement e74 = (MobileElement)driver.findElementByAccessibilityId("alertScreenPrimaryButton"); 
 		e74.click();
+		
 		
 	}
 	

@@ -7,21 +7,19 @@
     <parameter name="deviceName" value="Google Pixel"/>
     <parameter name="url" value="http://127.0.0.1:4723/wd/hub"/>
     <classes>
-      <class name="tests.CardActivation">
+      <class name="positiveTests.SettingsScreen">
         <methods>
-          <include name="ActivationPwEntry"/>
-          <include name="ActivationPINSetting"/>
+          <include name="accessSettings"/>
           <include name="setup"/>
-          <include name="ActivateCardScreen"/>
         </methods>
-      </class> <!-- tests.CardActivation -->
-      <class name="tests.CardConfirmation">
+      </class> <!-- positiveTests.SettingsScreen -->
+      <class name="positiveTests.CardConfirmation">
         <methods>
-          <include name="ConfirmThatCard"/>
-          <include name="setup"/>
           <include name="ConfirmCardLogin"/>
+          <include name="setup"/>
+          <include name="ConfirmThatCard"/>
         </methods>
-      </class> <!-- tests.CardConfirmation -->
+      </class> <!-- positiveTests.CardConfirmation -->
     </classes>
   </test> <!-- RegressionTest(failed) -->
 </suite> <!-- Failed suite [V2TestSuite] -->

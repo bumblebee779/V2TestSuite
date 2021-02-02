@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.CardActivation">
+      <class name="positiveTests.SettingsScreen">
         <methods>
-          <include name="ActivationPwEntry"/>
-          <include name="ActivationPINSetting"/>
+          <include name="accessSettings"/>
           <include name="setup"/>
-          <include name="ActivateCardScreen"/>
         </methods>
-      </class> <!-- tests.CardActivation -->
+      </class> <!-- positiveTests.SettingsScreen -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

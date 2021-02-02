@@ -1,4 +1,4 @@
-package tests;
+package positiveTests;
 
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;

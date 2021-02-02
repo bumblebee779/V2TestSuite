@@ -1,4 +1,4 @@
-package tests;
+package positiveTests;
 
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
@@ -59,6 +59,13 @@ public class CardConfirmation extends BaseClass {
 		confirmCard2.click();
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
+		MobileElement confirmCard3 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
+				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]"
+				+ "/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]"
+				+ "/android.view.ViewGroup[2]"); 
+		confirmCard3.click();
+		
 		
 //		MobileElement confirmCard3 = (MobileElement)driver.findElementByAccessibilityId("modalCloseIcon"); 
 //		confirmCard3.click();

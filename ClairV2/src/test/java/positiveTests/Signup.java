@@ -1,11 +1,11 @@
-package tests;
+package positiveTests;
 
 import org.testng.annotations.Test;
+
+import helperFunctions.Scrolling;
+
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
-import scrolling.Scrolling;
-
-
 
 import io.appium.java_client.MobileElement;
 
@@ -146,7 +146,39 @@ public class Signup extends BaseClass{
 	@Test (priority = 5)
 	public void SignupEnterMailingAddress() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+		
+		MobileElement streetAddress = (MobileElement) driver.findElementByAccessibilityId("addressFormStreetInput");
+		streetAddress.sendKeys("25-45 100th St");
+		
+		MobileElement Apt = (MobileElement) driver.findElementByAccessibilityId("addressFormApartmentInput");
+		Apt.sendKeys("1F");
+		
+		MobileElement zip = (MobileElement) driver.findElementByAccessibilityId("addressFormZipCodeInput");
+		zip.sendKeys("11369");
+		
+		MobileElement city = (MobileElement) driver.findElementByAccessibilityId("addressFormCityInput");
+		city.sendKeys("East Elmhurst");
+		
+		MobileElement statedrop = (MobileElement) driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
+				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]"
+				+ "/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]"
+				+ "/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"
+				+ "/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]"
+				+ "/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"
+				+ "/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]"
+				+ "/android.view.ViewGroup[1]/android.view.ViewGroup[6]/android.widget.Spinner[1]");
+		statedrop.click();
+		
+		Scrolling scrolling = new Scrolling();
+		scrolling.scrollDownReview();
+		scrolling.scrollDown();
+		
+		MobileElement state = (MobileElement) driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
+				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]"
+				+ "/android.widget.FrameLayout[1]/androidx.appcompat.widget.LinearLayoutCompat[1]"
+				+ "/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.CheckedTextView[12]");
+		state.click();
+		
 		MobileElement e22 = (MobileElement) driver.findElementByAccessibilityId("mailingContinue");
 		e22.click();
 
@@ -365,17 +397,7 @@ public class Signup extends BaseClass{
 		 
 		driver.resetApp();
 	}
-	
-	
-	
-	
-	public void ConfirmCard() {
-		
-	}
-	
-	public void AccountClosure() {
-		
-	}
+
 }
 
 

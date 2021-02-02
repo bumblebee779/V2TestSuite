@@ -1,4 +1,4 @@
-package tests;
+package positiveTests;
 
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +9,7 @@ import io.appium.java_client.MobileElement;
 public class SavingsScreen extends BaseClass{
 	@Test(priority=1)
 	public void MoneyToSavings() {
+		
 		//click the Savings account box on Home screen
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
