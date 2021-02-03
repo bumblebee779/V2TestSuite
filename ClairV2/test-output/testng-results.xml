@@ -2,216 +2,216 @@
 <testng-results ignored="15" total="59" passed="44" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-01T21:36:20 EST" name="V2TestSuite" finished-at="2021-02-01T21:44:43 EST" duration-ms="503460">
+  <suite started-at="2021-02-03T18:13:06 EST" name="V2TestSuite" finished-at="2021-02-03T18:21:40 EST" duration-ms="513863">
     <groups>
     </groups>
-    <test started-at="2021-02-01T21:36:20 EST" name="RegressionTest" finished-at="2021-02-01T21:44:43 EST" duration-ms="503460">
+    <test started-at="2021-02-03T18:13:06 EST" name="RegressionTest" finished-at="2021-02-03T18:21:40 EST" duration-ms="513863">
       <class name="positiveTests.MoveMoneyAddTransfer">
-        <test-method signature="addRecipientBasic1()[pri:1, instance:positiveTests.MoveMoneyAddTransfer@140c9f39]" started-at="2021-02-01T21:41:42 EST" name="addRecipientBasic1" finished-at="2021-02-01T21:42:05 EST" duration-ms="23367" status="PASS">
+        <test-method signature="addRecipientBasic1()[pri:1, instance:positiveTests.MoveMoneyAddTransfer@140c9f39]" started-at="2021-02-03T18:18:35 EST" name="addRecipientBasic1" finished-at="2021-02-03T18:18:59 EST" duration-ms="24154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRecipientBasic1 -->
-        <test-method signature="addRecipientBasic2()[pri:2, instance:positiveTests.MoveMoneyAddTransfer@140c9f39]" started-at="2021-02-01T21:42:05 EST" name="addRecipientBasic2" finished-at="2021-02-01T21:42:17 EST" duration-ms="12207" status="PASS">
+        <test-method signature="addRecipientBasic2()[pri:2, instance:positiveTests.MoveMoneyAddTransfer@140c9f39]" started-at="2021-02-03T18:18:59 EST" name="addRecipientBasic2" finished-at="2021-02-03T18:19:11 EST" duration-ms="12794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRecipientBasic2 -->
       </class> <!-- positiveTests.MoveMoneyAddTransfer -->
       <class name="positiveTests.LogIn">
-        <test-method signature="Login()[pri:1, instance:positiveTests.LogIn@503d687a]" started-at="2021-02-01T21:37:47 EST" name="Login" finished-at="2021-02-01T21:38:04 EST" duration-ms="16762" status="PASS">
+        <test-method signature="Login()[pri:1, instance:positiveTests.LogIn@503d687a]" started-at="2021-02-03T18:14:39 EST" name="Login" finished-at="2021-02-03T18:14:58 EST" duration-ms="18383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
       </class> <!-- positiveTests.LogIn -->
       <class name="positiveTests.MoveMoneyBankTransfer">
-        <test-method signature="BankTransfer()[pri:1, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-01T21:40:35 EST" name="BankTransfer" finished-at="2021-02-01T21:40:55 EST" duration-ms="19622" status="PASS">
+        <test-method signature="BankTransfer()[pri:1, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-03T18:17:28 EST" name="BankTransfer" finished-at="2021-02-03T18:17:48 EST" duration-ms="19723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BankTransfer -->
-        <test-method signature="scrollNow4()[pri:2, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-01T21:40:55 EST" name="scrollNow4" finished-at="2021-02-01T21:41:00 EST" duration-ms="4756" status="PASS">
+        <test-method signature="scrollNow4()[pri:2, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-03T18:17:48 EST" name="scrollNow4" finished-at="2021-02-03T18:17:53 EST" duration-ms="4936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollNow4 -->
-        <test-method signature="clickBankTransferPrevRecptPerform()[pri:3, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-01T21:41:00 EST" name="clickBankTransferPrevRecptPerform" finished-at="2021-02-01T21:41:05 EST" duration-ms="4946" status="PASS">
+        <test-method signature="clickBankTransferPrevRecptPerform()[pri:3, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-03T18:17:53 EST" name="clickBankTransferPrevRecptPerform" finished-at="2021-02-03T18:17:58 EST" duration-ms="5102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickBankTransferPrevRecptPerform -->
-        <test-method signature="scrollNow5()[pri:4, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-01T21:41:05 EST" name="scrollNow5" finished-at="2021-02-01T21:41:06 EST" duration-ms="1165" status="PASS">
+        <test-method signature="scrollNow5()[pri:4, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-03T18:17:58 EST" name="scrollNow5" finished-at="2021-02-03T18:17:59 EST" duration-ms="1152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollNow5 -->
-        <test-method signature="PerformTransfer()[pri:5, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-01T21:41:06 EST" name="PerformTransfer" finished-at="2021-02-01T21:41:06 EST" duration-ms="148" status="PASS">
+        <test-method signature="PerformTransfer()[pri:5, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-03T18:17:59 EST" name="PerformTransfer" finished-at="2021-02-03T18:17:59 EST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PerformTransfer -->
-        <test-method signature="clickYestoPerfBankTrans()[pri:6, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-01T21:41:06 EST" name="clickYestoPerfBankTrans" finished-at="2021-02-01T21:41:09 EST" duration-ms="2707" status="PASS">
+        <test-method signature="clickYestoPerfBankTrans()[pri:6, instance:positiveTests.MoveMoneyBankTransfer@19d481b]" started-at="2021-02-03T18:17:59 EST" name="clickYestoPerfBankTrans" finished-at="2021-02-03T18:18:02 EST" duration-ms="2634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickYestoPerfBankTrans -->
       </class> <!-- positiveTests.MoveMoneyBankTransfer -->
       <class name="positiveTests.MoveMoneyATM">
-        <test-method signature="moveMoneyATM()[pri:1, instance:positiveTests.MoveMoneyATM@7690781]" started-at="2021-02-01T21:43:18 EST" name="moveMoneyATM" finished-at="2021-02-01T21:43:48 EST" duration-ms="30111" status="PASS">
+        <test-method signature="moveMoneyATM()[pri:1, instance:positiveTests.MoveMoneyATM@7690781]" started-at="2021-02-03T18:20:13 EST" name="moveMoneyATM" finished-at="2021-02-03T18:20:44 EST" duration-ms="31574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveMoneyATM -->
       </class> <!-- positiveTests.MoveMoneyATM -->
       <class name="positiveTests.MoveMoneyDD">
-        <test-method signature="SetUpDirectDeposit()[pri:1, instance:positiveTests.MoveMoneyDD@4d910fd6]" started-at="2021-02-01T21:42:17 EST" name="SetUpDirectDeposit" finished-at="2021-02-01T21:42:38 EST" duration-ms="20779" status="PASS">
+        <test-method signature="SetUpDirectDeposit()[pri:1, instance:positiveTests.MoveMoneyDD@4d910fd6]" started-at="2021-02-03T18:19:11 EST" name="SetUpDirectDeposit" finished-at="2021-02-03T18:19:32 EST" duration-ms="20975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpDirectDeposit -->
-        <test-method signature="scrollNow3()[pri:2, instance:positiveTests.MoveMoneyDD@4d910fd6]" started-at="2021-02-01T21:42:38 EST" name="scrollNow3" finished-at="2021-02-01T21:42:41 EST" duration-ms="3424" status="PASS">
+        <test-method signature="scrollNow3()[pri:2, instance:positiveTests.MoveMoneyDD@4d910fd6]" started-at="2021-02-03T18:19:32 EST" name="scrollNow3" finished-at="2021-02-03T18:19:36 EST" duration-ms="3612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollNow3 -->
-        <test-method signature="finishSetupDD()[pri:3, instance:positiveTests.MoveMoneyDD@4d910fd6]" started-at="2021-02-01T21:42:41 EST" name="finishSetupDD" finished-at="2021-02-01T21:42:42 EST" duration-ms="1085" status="PASS">
+        <test-method signature="finishSetupDD()[pri:3, instance:positiveTests.MoveMoneyDD@4d910fd6]" started-at="2021-02-03T18:19:36 EST" name="finishSetupDD" finished-at="2021-02-03T18:19:37 EST" duration-ms="1131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishSetupDD -->
       </class> <!-- positiveTests.MoveMoneyDD -->
       <class name="positiveTests.CardConfirmation">
-        <test-method signature="ConfirmCardLogin()[pri:1, instance:positiveTests.CardConfirmation@3246fb96]" started-at="2021-02-01T21:44:23 EST" name="ConfirmCardLogin" finished-at="2021-02-01T21:44:39 EST" duration-ms="16198" status="PASS">
+        <test-method signature="ConfirmCardLogin()[pri:1, instance:positiveTests.CardConfirmation@3246fb96]" started-at="2021-02-03T18:21:20 EST" name="ConfirmCardLogin" finished-at="2021-02-03T18:21:36 EST" duration-ms="16267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfirmCardLogin -->
-        <test-method signature="ConfirmThatCard()[pri:2, instance:positiveTests.CardConfirmation@3246fb96]" started-at="2021-02-01T21:44:39 EST" name="ConfirmThatCard" finished-at="2021-02-01T21:44:43 EST" duration-ms="3859" status="PASS">
+        <test-method signature="ConfirmThatCard()[pri:2, instance:positiveTests.CardConfirmation@3246fb96]" started-at="2021-02-03T18:21:36 EST" name="ConfirmThatCard" finished-at="2021-02-03T18:21:40 EST" duration-ms="3740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfirmThatCard -->
       </class> <!-- positiveTests.CardConfirmation -->
       <class name="positiveTests.MoveMoneyBillPay">
-        <test-method signature="MailCheck()[pri:1, instance:positiveTests.MoveMoneyBillPay@26275bef]" started-at="2021-02-01T21:42:42 EST" name="MailCheck" finished-at="2021-02-01T21:43:06 EST" duration-ms="23761" status="PASS">
+        <test-method signature="MailCheck()[pri:1, instance:positiveTests.MoveMoneyBillPay@26275bef]" started-at="2021-02-03T18:19:37 EST" name="MailCheck" finished-at="2021-02-03T18:20:01 EST" duration-ms="24106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MailCheck -->
-        <test-method signature="mailCheck()[pri:2, instance:positiveTests.MoveMoneyBillPay@26275bef]" started-at="2021-02-01T21:43:06 EST" name="mailCheck" finished-at="2021-02-01T21:43:18 EST" duration-ms="11809" status="PASS">
+        <test-method signature="mailCheck()[pri:2, instance:positiveTests.MoveMoneyBillPay@26275bef]" started-at="2021-02-03T18:20:01 EST" name="mailCheck" finished-at="2021-02-03T18:20:13 EST" duration-ms="11378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mailCheck -->
       </class> <!-- positiveTests.MoveMoneyBillPay -->
       <class name="positiveTests.SavingsScreen">
-        <test-method signature="MoneyToSavings()[pri:1, instance:positiveTests.SavingsScreen@2abf4075]" started-at="2021-02-01T21:38:40 EST" name="MoneyToSavings" finished-at="2021-02-01T21:38:52 EST" duration-ms="12070" status="PASS">
+        <test-method signature="MoneyToSavings()[pri:1, instance:positiveTests.SavingsScreen@2abf4075]" started-at="2021-02-03T18:15:32 EST" name="MoneyToSavings" finished-at="2021-02-03T18:15:44 EST" duration-ms="11343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MoneyToSavings -->
-        <test-method signature="SavingsReminder()[pri:2, instance:positiveTests.SavingsScreen@2abf4075]" started-at="2021-02-01T21:38:52 EST" name="SavingsReminder" finished-at="2021-02-01T21:39:36 EST" duration-ms="43513" status="PASS">
+        <test-method signature="SavingsReminder()[pri:2, instance:positiveTests.SavingsScreen@2abf4075]" started-at="2021-02-03T18:15:44 EST" name="SavingsReminder" finished-at="2021-02-03T18:16:28 EST" duration-ms="44284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SavingsReminder -->
       </class> <!-- positiveTests.SavingsScreen -->
       <class name="positiveTests.CardActivation">
-        <test-method signature="ActivateCardScreen()[pri:1, instance:positiveTests.CardActivation@6a370f4]" started-at="2021-02-01T21:38:04 EST" name="ActivateCardScreen" finished-at="2021-02-01T21:38:06 EST" duration-ms="2153" status="PASS">
+        <test-method signature="ActivateCardScreen()[pri:1, instance:positiveTests.CardActivation@6a370f4]" started-at="2021-02-03T18:14:58 EST" name="ActivateCardScreen" finished-at="2021-02-03T18:15:00 EST" duration-ms="2309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ActivateCardScreen -->
-        <test-method signature="ActivationPwEntry()[pri:2, instance:positiveTests.CardActivation@6a370f4]" started-at="2021-02-01T21:38:06 EST" name="ActivationPwEntry" finished-at="2021-02-01T21:38:13 EST" duration-ms="6399" status="PASS">
+        <test-method signature="ActivationPwEntry()[pri:2, instance:positiveTests.CardActivation@6a370f4]" started-at="2021-02-03T18:15:00 EST" name="ActivationPwEntry" finished-at="2021-02-03T18:15:06 EST" duration-ms="6235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ActivationPwEntry -->
-        <test-method signature="ActivationPINSetting()[pri:3, instance:positiveTests.CardActivation@6a370f4]" started-at="2021-02-01T21:38:13 EST" name="ActivationPINSetting" finished-at="2021-02-01T21:38:40 EST" duration-ms="27506" status="PASS">
+        <test-method signature="ActivationPINSetting()[pri:3, instance:positiveTests.CardActivation@6a370f4]" started-at="2021-02-03T18:15:06 EST" name="ActivationPINSetting" finished-at="2021-02-03T18:15:32 EST" duration-ms="25910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ActivationPINSetting -->
       </class> <!-- positiveTests.CardActivation -->
       <class name="positiveTests.Signup">
-        <test-method is-config="true" signature="setup()[pri:0, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:36:20 EST" name="setup" finished-at="2021-02-01T21:36:30 EST" duration-ms="10008" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:13:06 EST" name="setup" finished-at="2021-02-03T18:13:17 EST" duration-ms="11386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SignupVerifyCode()[pri:0, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:36:30 EST" name="SignupVerifyCode" finished-at="2021-02-01T21:36:40 EST" duration-ms="10478" status="PASS">
+        <test-method signature="SignupVerifyCode()[pri:0, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:13:17 EST" name="SignupVerifyCode" finished-at="2021-02-03T18:13:28 EST" duration-ms="10353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignupVerifyCode -->
-        <test-method signature="SignupEnterLoginInfo()[pri:1, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:36:40 EST" name="SignupEnterLoginInfo" finished-at="2021-02-01T21:36:46 EST" duration-ms="6192" status="PASS">
+        <test-method signature="SignupEnterLoginInfo()[pri:1, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:13:28 EST" name="SignupEnterLoginInfo" finished-at="2021-02-03T18:13:34 EST" duration-ms="6169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignupEnterLoginInfo -->
-        <test-method signature="scrollNow()[pri:2, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:36:46 EST" name="scrollNow" finished-at="2021-02-01T21:36:47 EST" duration-ms="1192" status="PASS">
+        <test-method signature="scrollNow()[pri:2, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:13:34 EST" name="scrollNow" finished-at="2021-02-03T18:13:35 EST" duration-ms="1210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollNow -->
-        <test-method signature="clickInfoCont()[pri:3, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:36:47 EST" name="clickInfoCont" finished-at="2021-02-01T21:36:48 EST" duration-ms="243" status="PASS">
+        <test-method signature="clickInfoCont()[pri:3, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:13:35 EST" name="clickInfoCont" finished-at="2021-02-03T18:13:35 EST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickInfoCont -->
-        <test-method signature="SignupEnterPersonalInfo()[pri:4, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:36:48 EST" name="SignupEnterPersonalInfo" finished-at="2021-02-01T21:36:54 EST" duration-ms="6000" status="PASS">
+        <test-method signature="SignupEnterPersonalInfo()[pri:4, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:13:35 EST" name="SignupEnterPersonalInfo" finished-at="2021-02-03T18:13:42 EST" duration-ms="6753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignupEnterPersonalInfo -->
-        <test-method signature="SignupEnterMailingAddress()[pri:5, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:36:54 EST" name="SignupEnterMailingAddress" finished-at="2021-02-01T21:37:09 EST" duration-ms="15389" status="PASS">
+        <test-method signature="SignupEnterMailingAddress()[pri:5, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:13:42 EST" name="SignupEnterMailingAddress" finished-at="2021-02-03T18:13:58 EST" duration-ms="15499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignupEnterMailingAddress -->
-        <test-method signature="SignupEnterPermAddress()[pri:6, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:37:09 EST" name="SignupEnterPermAddress" finished-at="2021-02-01T21:37:11 EST" duration-ms="1760" status="PASS">
+        <test-method signature="SignupEnterPermAddress()[pri:6, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:13:58 EST" name="SignupEnterPermAddress" finished-at="2021-02-03T18:14:00 EST" duration-ms="2601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignupEnterPermAddress -->
-        <test-method signature="scrollNow1()[pri:7, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:37:11 EST" name="scrollNow1" finished-at="2021-02-01T21:37:12 EST" duration-ms="1342" status="PASS">
+        <test-method signature="scrollNow1()[pri:7, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:14:00 EST" name="scrollNow1" finished-at="2021-02-03T18:14:02 EST" duration-ms="1260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollNow1 -->
-        <test-method signature="billingCont()[pri:8, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:37:12 EST" name="billingCont" finished-at="2021-02-01T21:37:14 EST" duration-ms="1592" status="PASS">
+        <test-method signature="billingCont()[pri:8, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:14:02 EST" name="billingCont" finished-at="2021-02-03T18:14:04 EST" duration-ms="2271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billingCont -->
-        <test-method signature="EmploymentScreen()[pri:9, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:37:14 EST" name="EmploymentScreen" finished-at="2021-02-01T21:37:20 EST" duration-ms="5991" status="PASS">
+        <test-method signature="EmploymentScreen()[pri:9, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:14:04 EST" name="EmploymentScreen" finished-at="2021-02-03T18:14:11 EST" duration-ms="6653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmploymentScreen -->
-        <test-method signature="SsnScreen()[pri:10, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:37:20 EST" name="SsnScreen" finished-at="2021-02-01T21:37:40 EST" duration-ms="19719" status="PASS">
+        <test-method signature="SsnScreen()[pri:10, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:14:11 EST" name="SsnScreen" finished-at="2021-02-03T18:14:32 EST" duration-ms="21058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SsnScreen -->
-        <test-method signature="scrollNow2()[pri:11, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:37:40 EST" name="scrollNow2" finished-at="2021-02-01T21:37:45 EST" duration-ms="5260" status="PASS">
+        <test-method signature="scrollNow2()[pri:11, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:14:32 EST" name="scrollNow2" finished-at="2021-02-03T18:14:37 EST" duration-ms="5233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollNow2 -->
-        <test-method signature="clickReviewsubmit()[pri:12, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-01T21:37:45 EST" name="clickReviewsubmit" finished-at="2021-02-01T21:37:47 EST" duration-ms="2485" status="PASS">
+        <test-method signature="clickReviewsubmit()[pri:12, instance:positiveTests.Signup@62e7f11d]" started-at="2021-02-03T18:14:37 EST" name="clickReviewsubmit" finished-at="2021-02-03T18:14:39 EST" duration-ms="2518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickReviewsubmit -->
       </class> <!-- positiveTests.Signup -->
       <class name="positiveTests.MoveMoneyAddSpend">
-        <test-method signature="AddToSpending()[pri:1, instance:positiveTests.MoveMoneyAddSpend@4cc8eb05]" started-at="2021-02-01T21:39:44 EST" name="AddToSpending" finished-at="2021-02-01T21:40:10 EST" duration-ms="25652" status="PASS">
+        <test-method signature="AddToSpending()[pri:1, instance:positiveTests.MoveMoneyAddSpend@4cc8eb05]" started-at="2021-02-03T18:16:36 EST" name="AddToSpending" finished-at="2021-02-03T18:17:03 EST" duration-ms="27387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToSpending -->
       </class> <!-- positiveTests.MoveMoneyAddSpend -->
       <class name="positiveTests.SettingsScreen">
-        <test-method signature="accessSettings()[pri:1, instance:positiveTests.SettingsScreen@77eca502]" started-at="2021-02-01T21:43:48 EST" name="accessSettings" finished-at="2021-02-01T21:44:23 EST" duration-ms="34827" status="PASS">
+        <test-method signature="accessSettings()[pri:1, instance:positiveTests.SettingsScreen@77eca502]" started-at="2021-02-03T18:20:44 EST" name="accessSettings" finished-at="2021-02-03T18:21:20 EST" duration-ms="35590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessSettings -->
       </class> <!-- positiveTests.SettingsScreen -->
       <class name="positiveTests.MoveMoneyDeleteTransfer">
-        <test-method signature="accessdeleteTrans()[pri:1, instance:positiveTests.MoveMoneyDeleteTransfer@1f97cf0d]" started-at="2021-02-01T21:41:09 EST" name="accessdeleteTrans" finished-at="2021-02-01T21:41:32 EST" duration-ms="23495" status="PASS">
+        <test-method signature="accessdeleteTrans()[pri:1, instance:positiveTests.MoveMoneyDeleteTransfer@1f97cf0d]" started-at="2021-02-03T18:18:02 EST" name="accessdeleteTrans" finished-at="2021-02-03T18:18:25 EST" duration-ms="23168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessdeleteTrans -->
-        <test-method signature="gonnaDelete()[pri:2, instance:positiveTests.MoveMoneyDeleteTransfer@1f97cf0d]" started-at="2021-02-01T21:41:32 EST" name="gonnaDelete" finished-at="2021-02-01T21:41:42 EST" duration-ms="9286" status="PASS">
+        <test-method signature="gonnaDelete()[pri:2, instance:positiveTests.MoveMoneyDeleteTransfer@1f97cf0d]" started-at="2021-02-03T18:18:25 EST" name="gonnaDelete" finished-at="2021-02-03T18:18:35 EST" duration-ms="9465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gonnaDelete -->
       </class> <!-- positiveTests.MoveMoneyDeleteTransfer -->
       <class name="positiveTests.MoveMoneyAddCash">
-        <test-method signature="getToAddCash()[pri:1, instance:positiveTests.MoveMoneyAddCash@51f116b8]" started-at="2021-02-01T21:40:10 EST" name="getToAddCash" finished-at="2021-02-01T21:40:33 EST" duration-ms="23589" status="PASS">
+        <test-method signature="getToAddCash()[pri:1, instance:positiveTests.MoveMoneyAddCash@51f116b8]" started-at="2021-02-03T18:17:03 EST" name="getToAddCash" finished-at="2021-02-03T18:17:26 EST" duration-ms="22757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getToAddCash -->
-        <test-method signature="clickAddCash()[pri:2, instance:positiveTests.MoveMoneyAddCash@51f116b8]" started-at="2021-02-01T21:40:33 EST" name="clickAddCash" finished-at="2021-02-01T21:40:33 EST" duration-ms="115" status="PASS">
+        <test-method signature="clickAddCash()[pri:2, instance:positiveTests.MoveMoneyAddCash@51f116b8]" started-at="2021-02-03T18:17:26 EST" name="clickAddCash" finished-at="2021-02-03T18:17:26 EST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAddCash -->
-        <test-method signature="completeAddCash()[pri:3, instance:positiveTests.MoveMoneyAddCash@51f116b8]" started-at="2021-02-01T21:40:33 EST" name="completeAddCash" finished-at="2021-02-01T21:40:35 EST" duration-ms="2024" status="PASS">
+        <test-method signature="completeAddCash()[pri:3, instance:positiveTests.MoveMoneyAddCash@51f116b8]" started-at="2021-02-03T18:17:26 EST" name="completeAddCash" finished-at="2021-02-03T18:17:28 EST" duration-ms="2128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeAddCash -->
       </class> <!-- positiveTests.MoveMoneyAddCash -->
       <class name="positiveTests.MoveMoneyAddSav">
-        <test-method signature="AddToSavings()[pri:1, instance:positiveTests.MoveMoneyAddSav@770d3326]" started-at="2021-02-01T21:39:36 EST" name="AddToSavings" finished-at="2021-02-01T21:39:41 EST" duration-ms="5351" status="PASS">
+        <test-method signature="AddToSavings()[pri:1, instance:positiveTests.MoveMoneyAddSav@770d3326]" started-at="2021-02-03T18:16:28 EST" name="AddToSavings" finished-at="2021-02-03T18:16:33 EST" duration-ms="4750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToSavings -->
-        <test-method signature="clickConfirm()[pri:2, instance:positiveTests.MoveMoneyAddSav@770d3326]" started-at="2021-02-01T21:39:41 EST" name="clickConfirm" finished-at="2021-02-01T21:39:44 EST" duration-ms="2995" status="PASS">
+        <test-method signature="clickConfirm()[pri:2, instance:positiveTests.MoveMoneyAddSav@770d3326]" started-at="2021-02-03T18:16:33 EST" name="clickConfirm" finished-at="2021-02-03T18:16:36 EST" duration-ms="3103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickConfirm -->

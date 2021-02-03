@@ -40,8 +40,12 @@ public class MoveMoneyATM extends BaseClass{
 		Scrolling scrolling = new Scrolling();
 		scrolling.scrollDownReview();
 		
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
 		MobileElement clickATM1 = (MobileElement)driver.findElementByAccessibilityId("moveMoneyFindAnAtm"); 
 		clickATM1.click();
+		
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		MobileElement clickATM2 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
 				+ "/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]"
@@ -49,8 +53,12 @@ public class MoveMoneyATM extends BaseClass{
 				+ "/android.widget.Button[1]"); 
 		clickATM2.click();
 		
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
 		Scrolling scrollATM = new Scrolling();
 		scrollATM.scrollDown();
+		
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		MobileElement clickATM3 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
 				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]"
@@ -64,6 +72,8 @@ public class MoveMoneyATM extends BaseClass{
 				+ "/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]"
 				+ "/android.view.ViewGroup[5]/android.view.ViewGroup[1]/android.widget.TextView[1]"); 
 		clickATM3.click();
+		
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		MobileElement clickATM4 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
 				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]"
