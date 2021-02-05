@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [V2TestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="RegressionTest(failed)">
-    <parameter name="platformVersion" value="10"/>
-    <parameter name="udid" value="92FAY00ZVX"/>
-    <parameter name="deviceName" value="Google Pixel"/>
-    <parameter name="url" value="http://127.0.0.1:4723/wd/hub"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="positiveTests.SettingsScreen">
         <methods>
@@ -13,13 +9,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- positiveTests.SettingsScreen -->
-      <class name="positiveTests.CardConfirmation">
-        <methods>
-          <include name="ConfirmCardLogin"/>
-          <include name="setup"/>
-          <include name="ConfirmThatCard"/>
-        </methods>
-      </class> <!-- positiveTests.CardConfirmation -->
     </classes>
-  </test> <!-- RegressionTest(failed) -->
-</suite> <!-- Failed suite [V2TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

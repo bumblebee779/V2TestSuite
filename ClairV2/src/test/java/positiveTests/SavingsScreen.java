@@ -71,7 +71,7 @@ public class SavingsScreen extends BaseClass{
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
-		MobileElement clickButton = (MobileElement)driver.findElementByAccessibilityId("leftIconDaily");
+		MobileElement clickButton = (MobileElement)driver.findElementByAccessibilityId("leftIconWeekly");
 		clickButton.click();
 		
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);

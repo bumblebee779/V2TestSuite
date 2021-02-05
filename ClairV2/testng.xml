@@ -23,6 +23,8 @@
       <class name="positiveTests.MoveMoneyATM"/>
       <class name="positiveTests.SettingsScreen"/>
       <class name="positiveTests.CardConfirmation"/>
+      <class name="positiveTests.ResetPassword"/>
+      <class name="positiveTests.FreezeCard"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- V2TestSuite -->
