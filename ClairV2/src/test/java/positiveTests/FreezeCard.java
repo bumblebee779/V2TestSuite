@@ -64,6 +64,10 @@ public class FreezeCard extends BaseClass{
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
+	}
+	@Test(priority = 2)
+	public void freezeToggle() {
+		
 		MobileElement freeze9 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
 				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]"
 				+ "/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]"
