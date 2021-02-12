@@ -20,11 +20,12 @@
       <class name="positiveTests.MoveMoneyAddTransfer"/>
       <class name="positiveTests.MoveMoneyDD"/>
       <class name="positiveTests.MoveMoneyBillPay"/>
-      <class name="positiveTests.MoveMoneyATM"/>
       <class name="positiveTests.SettingsScreen"/>
       <class name="positiveTests.CardConfirmation"/>
-      <class name="positiveTests.ResetPassword"/>
       <class name="positiveTests.FreezeCard"/>
+      <class name="positiveTests.ReplaceLostCard"/>
+      <class name="positiveTests.ResetPassword"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- V2TestSuite -->

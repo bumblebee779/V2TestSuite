@@ -3,7 +3,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.Test;
 
-import helperFunctions.Scrolling;
+
 import io.appium.java_client.MobileElement;
 
 
@@ -19,12 +19,12 @@ public class FreezeCard extends BaseClass{
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		MobileElement freeze2 = (MobileElement)driver.findElementByAccessibilityId("loginInputEmail"); 
-		freeze2.sendKeys("lubna+71@getclair.com");;
+		freeze2.sendKeys("charliechaplin@choco.la");;
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		MobileElement freeze3 = (MobileElement)driver.findElementByAccessibilityId("loginInputPassword"); 
-		freeze3.sendKeys("Anay@2020!");;
+		freeze3.sendKeys("CharlieChaplin123!");;
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
@@ -104,6 +104,7 @@ public class FreezeCard extends BaseClass{
 		MobileElement freeze12 = (MobileElement)driver.findElementByAccessibilityId("alertActionYes"); 
 		freeze12.click();
 		
+		driver.resetApp();
 		
 	}
 }

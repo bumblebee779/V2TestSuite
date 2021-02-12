@@ -7,113 +7,12 @@
     <parameter name="deviceName" value="Google Pixel"/>
     <parameter name="url" value="http://127.0.0.1:4723/wd/hub"/>
     <classes>
-      <class name="positiveTests.MoveMoneyBankTransfer">
-        <methods>
-          <include name="clickBankTransferPrevRecptPerform"/>
-          <include name="clickYestoPerfBankTrans"/>
-          <include name="setup"/>
-          <include name="scrollNow4"/>
-          <include name="scrollNow5"/>
-          <include name="PerformTransfer"/>
-          <include name="BankTransfer"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyBankTransfer -->
-      <class name="positiveTests.CardActivation">
-        <methods>
-          <include name="ActivationPwEntry"/>
-          <include name="ActivationPINSetting"/>
-          <include name="setup"/>
-          <include name="ActivateCardScreen"/>
-        </methods>
-      </class> <!-- positiveTests.CardActivation -->
-      <class name="positiveTests.CardConfirmation">
-        <methods>
-          <include name="ConfirmCardLogin"/>
-          <include name="setup"/>
-          <include name="ConfirmThatCard"/>
-        </methods>
-      </class> <!-- positiveTests.CardConfirmation -->
-      <class name="positiveTests.MoveMoneyAddTransfer">
-        <methods>
-          <include name="addRecipientBasic1"/>
-          <include name="setup"/>
-          <include name="addRecipientBasic2"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyAddTransfer -->
       <class name="positiveTests.MoveMoneyATM">
         <methods>
           <include name="setup"/>
           <include name="moveMoneyATM"/>
         </methods>
       </class> <!-- positiveTests.MoveMoneyATM -->
-      <class name="positiveTests.MoveMoneyAddCash">
-        <methods>
-          <include name="clickAddCash"/>
-          <include name="getToAddCash"/>
-          <include name="setup"/>
-          <include name="completeAddCash"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyAddCash -->
-      <class name="positiveTests.MoveMoneyDeleteTransfer">
-        <methods>
-          <include name="gonnaDelete"/>
-          <include name="accessdeleteTrans"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyDeleteTransfer -->
-      <class name="positiveTests.FreezeCard">
-        <methods>
-          <include name="setup"/>
-          <include name="freezeCard"/>
-        </methods>
-      </class> <!-- positiveTests.FreezeCard -->
-      <class name="positiveTests.SettingsScreen">
-        <methods>
-          <include name="accessSettings"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- positiveTests.SettingsScreen -->
-      <class name="positiveTests.MoveMoneyDD">
-        <methods>
-          <include name="finishSetupDD"/>
-          <include name="SetUpDirectDeposit"/>
-          <include name="scrollNow3"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyDD -->
-      <class name="positiveTests.ResetPassword">
-        <methods>
-          <include name="setup"/>
-          <include name="resetPassword"/>
-        </methods>
-      </class> <!-- positiveTests.ResetPassword -->
-      <class name="positiveTests.MoveMoneyBillPay">
-        <methods>
-          <include name="MailCheck"/>
-          <include name="setup"/>
-          <include name="mailCheck"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyBillPay -->
-      <class name="positiveTests.MoveMoneyAddSav">
-        <methods>
-          <include name="AddToSavings"/>
-          <include name="setup"/>
-          <include name="clickConfirm"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyAddSav -->
-      <class name="positiveTests.MoveMoneyAddSpend">
-        <methods>
-          <include name="AddToSpending"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyAddSpend -->
-      <class name="positiveTests.SavingsScreen">
-        <methods>
-          <include name="SavingsReminder"/>
-          <include name="MoneyToSavings"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- positiveTests.SavingsScreen -->
     </classes>
   </test> <!-- RegressionTest(failed) -->
 </suite> <!-- Failed suite [V2TestSuite] -->

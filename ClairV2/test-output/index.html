@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-V2TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">V2TestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-V2TestSuite" class="navigator-link ">
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-V2TestSuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-V2TestSuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-V2TestSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-V2TestSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-V2TestSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-V2TestSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,21 +93,270 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">49 methods, 1 failed,   48 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-V2TestSuite" class="hide-methods failed suite-V2TestSuite"> (hide)</a> <!-- hide-methods failed suite-V2TestSuite -->
+                      <a href="#" panel-name="suite-V2TestSuite" class="show-methods failed suite-V2TestSuite"> (show)</a> <!-- show-methods failed suite-V2TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-V2TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyATM" class="method navigator-link" hash-for-method="moveMoneyATM">moveMoneyATM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-V2TestSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-V2TestSuite" class="hide-methods passed suite-V2TestSuite"> (hide)</a> <!-- hide-methods passed suite-V2TestSuite -->
+                      <a href="#" panel-name="suite-V2TestSuite" class="show-methods passed suite-V2TestSuite"> (show)</a> <!-- show-methods passed suite-V2TestSuite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-V2TestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="positiveTests.SettingsScreen" class="method navigator-link" hash-for-method="accessSettings">accessSettings</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.CardActivation" class="method navigator-link" hash-for-method="ActivateCardScreen">ActivateCardScreen</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.CardActivation" class="method navigator-link" hash-for-method="ActivationPINSetting">ActivationPINSetting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.CardActivation" class="method navigator-link" hash-for-method="ActivationPwEntry">ActivationPwEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyAddSav" class="method navigator-link" hash-for-method="AddToSavings">AddToSavings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyAddSpend" class="method navigator-link" hash-for-method="AddToSpending">AddToSpending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyBankTransfer" class="method navigator-link" hash-for-method="BankTransfer">BankTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.CardConfirmation" class="method navigator-link" hash-for-method="ConfirmCardLogin">ConfirmCardLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.CardConfirmation" class="method navigator-link" hash-for-method="ConfirmThatCard">ConfirmThatCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="EmploymentScreen">EmploymentScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.LogIn" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyBillPay" class="method navigator-link" hash-for-method="MailCheck">MailCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.SavingsScreen" class="method navigator-link" hash-for-method="MoneyToSavings">MoneyToSavings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyBankTransfer" class="method navigator-link" hash-for-method="PerformTransfer">PerformTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.SavingsScreen" class="method navigator-link" hash-for-method="SavingsReminder">SavingsReminder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyDD" class="method navigator-link" hash-for-method="SetUpDirectDeposit">SetUpDirectDeposit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="SignupEnterLoginInfo">SignupEnterLoginInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="SignupEnterMailingAddress">SignupEnterMailingAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="SignupEnterPermAddress">SignupEnterPermAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="SignupEnterPersonalInfo">SignupEnterPersonalInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="SignupVerifyCode">SignupVerifyCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="SsnScreen">SsnScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.SettingsScreen" class="method navigator-link" hash-for-method="accessSettings">accessSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyDeleteTransfer" class="method navigator-link" hash-for-method="accessdeleteTrans">accessdeleteTrans</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyAddTransfer" class="method navigator-link" hash-for-method="addRecipientBasic1">addRecipientBasic1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyAddTransfer" class="method navigator-link" hash-for-method="addRecipientBasic2">addRecipientBasic2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="billingCont">billingCont</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyAddCash" class="method navigator-link" hash-for-method="clickAddCash">clickAddCash</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyBankTransfer" class="method navigator-link" hash-for-method="clickBankTransferPrevRecptPerform">clickBankTransferPrevRecptPerform</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyAddSav" class="method navigator-link" hash-for-method="clickConfirm">clickConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="clickInfoCont">clickInfoCont</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="clickReviewsubmit">clickReviewsubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyBankTransfer" class="method navigator-link" hash-for-method="clickYestoPerfBankTrans">clickYestoPerfBankTrans</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyAddCash" class="method navigator-link" hash-for-method="completeAddCash">completeAddCash</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyDD" class="method navigator-link" hash-for-method="finishSetupDD">finishSetupDD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.FreezeCard" class="method navigator-link" hash-for-method="freezeCard">freezeCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.FreezeCard" class="method navigator-link" hash-for-method="freezeToggle">freezeToggle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyAddCash" class="method navigator-link" hash-for-method="getToAddCash">getToAddCash</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyDeleteTransfer" class="method navigator-link" hash-for-method="gonnaDelete">gonnaDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyBillPay" class="method navigator-link" hash-for-method="mailCheck">mailCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.ReplaceLostCard" class="method navigator-link" hash-for-method="replaceLostCard">replaceLostCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.ReplaceLostCard" class="method navigator-link" hash-for-method="replaceTheLost">replaceTheLost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.ResetPassword" class="method navigator-link" hash-for-method="resetPassword">resetPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="scrollNow">scrollNow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="scrollNow1">scrollNow1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.Signup" class="method navigator-link" hash-for-method="scrollNow2">scrollNow2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyDD" class="method navigator-link" hash-for-method="scrollNow3">scrollNow3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyBankTransfer" class="method navigator-link" hash-for-method="scrollNow4">scrollNow4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-V2TestSuite" title="positiveTests.MoveMoneyBankTransfer" class="method navigator-link" hash-for-method="scrollNow5">scrollNow5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-V2TestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,8 +367,216 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-V2TestSuite" class="panel V2TestSuite">
+          <div class="suite-V2TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyATM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveMoneyATM">
+                  </a> <!-- moveMoneyATM -->
+                  <span class="method-name">moveMoneyATM</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Lubnas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:10fa:416c:e192:cef1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14.0.2&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, databaseEnabled: false, desired: {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, deviceName: Google Pixel, platformName: android, platformVersion: 10, udid: 92FAY00ZVX}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: Pixel 3a, deviceName: 92FAY00ZVX, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: 92FAY00ZVX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 66, takesScreenshot: true, udid: 92FAY00ZVX, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 65bf66f7-ef50-42c2-8a48-8b88c816c341
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at positiveTests.MoveMoneyATM.moveMoneyATM(MoveMoneyATM.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-failed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyBankTransfer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BankTransfer">
+                  </a> <!-- BankTransfer -->
+                  <span class="method-name">BankTransfer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PerformTransfer">
+                  </a> <!-- PerformTransfer -->
+                  <span class="method-name">PerformTransfer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickBankTransferPrevRecptPerform">
+                  </a> <!-- clickBankTransferPrevRecptPerform -->
+                  <span class="method-name">clickBankTransferPrevRecptPerform</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickYestoPerfBankTrans">
+                  </a> <!-- clickYestoPerfBankTrans -->
+                  <span class="method-name">clickYestoPerfBankTrans</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollNow4">
+                  </a> <!-- scrollNow4 -->
+                  <span class="method-name">scrollNow4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollNow5">
+                  </a> <!-- scrollNow5 -->
+                  <span class="method-name">scrollNow5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.CardActivation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ActivateCardScreen">
+                  </a> <!-- ActivateCardScreen -->
+                  <span class="method-name">ActivateCardScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ActivationPINSetting">
+                  </a> <!-- ActivationPINSetting -->
+                  <span class="method-name">ActivationPINSetting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ActivationPwEntry">
+                  </a> <!-- ActivationPwEntry -->
+                  <span class="method-name">ActivationPwEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.LogIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.FreezeCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="freezeCard">
+                  </a> <!-- freezeCard -->
+                  <span class="method-name">freezeCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="freezeToggle">
+                  </a> <!-- freezeToggle -->
+                  <span class="method-name">freezeToggle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyAddTransfer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addRecipientBasic1">
+                  </a> <!-- addRecipientBasic1 -->
+                  <span class="method-name">addRecipientBasic1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addRecipientBasic2">
+                  </a> <!-- addRecipientBasic2 -->
+                  <span class="method-name">addRecipientBasic2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyAddCash</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddCash">
+                  </a> <!-- clickAddCash -->
+                  <span class="method-name">clickAddCash</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeAddCash">
+                  </a> <!-- completeAddCash -->
+                  <span class="method-name">completeAddCash</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getToAddCash">
+                  </a> <!-- getToAddCash -->
+                  <span class="method-name">getToAddCash</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">positiveTests.SettingsScreen</span>
@@ -133,102 +590,977 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyDeleteTransfer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accessdeleteTrans">
+                  </a> <!-- accessdeleteTrans -->
+                  <span class="method-name">accessdeleteTrans</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gonnaDelete">
+                  </a> <!-- gonnaDelete -->
+                  <span class="method-name">gonnaDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.ResetPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="resetPassword">
+                  </a> <!-- resetPassword -->
+                  <span class="method-name">resetPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.CardConfirmation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmCardLogin">
+                  </a> <!-- ConfirmCardLogin -->
+                  <span class="method-name">ConfirmCardLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmThatCard">
+                  </a> <!-- ConfirmThatCard -->
+                  <span class="method-name">ConfirmThatCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.Signup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmploymentScreen">
+                  </a> <!-- EmploymentScreen -->
+                  <span class="method-name">EmploymentScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignupEnterLoginInfo">
+                  </a> <!-- SignupEnterLoginInfo -->
+                  <span class="method-name">SignupEnterLoginInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignupEnterMailingAddress">
+                  </a> <!-- SignupEnterMailingAddress -->
+                  <span class="method-name">SignupEnterMailingAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignupEnterPermAddress">
+                  </a> <!-- SignupEnterPermAddress -->
+                  <span class="method-name">SignupEnterPermAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignupEnterPersonalInfo">
+                  </a> <!-- SignupEnterPersonalInfo -->
+                  <span class="method-name">SignupEnterPersonalInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignupVerifyCode">
+                  </a> <!-- SignupVerifyCode -->
+                  <span class="method-name">SignupVerifyCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SsnScreen">
+                  </a> <!-- SsnScreen -->
+                  <span class="method-name">SsnScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="billingCont">
+                  </a> <!-- billingCont -->
+                  <span class="method-name">billingCont</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickInfoCont">
+                  </a> <!-- clickInfoCont -->
+                  <span class="method-name">clickInfoCont</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickReviewsubmit">
+                  </a> <!-- clickReviewsubmit -->
+                  <span class="method-name">clickReviewsubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollNow">
+                  </a> <!-- scrollNow -->
+                  <span class="method-name">scrollNow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollNow1">
+                  </a> <!-- scrollNow1 -->
+                  <span class="method-name">scrollNow1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollNow2">
+                  </a> <!-- scrollNow2 -->
+                  <span class="method-name">scrollNow2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyDD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SetUpDirectDeposit">
+                  </a> <!-- SetUpDirectDeposit -->
+                  <span class="method-name">SetUpDirectDeposit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="finishSetupDD">
+                  </a> <!-- finishSetupDD -->
+                  <span class="method-name">finishSetupDD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollNow3">
+                  </a> <!-- scrollNow3 -->
+                  <span class="method-name">scrollNow3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.ReplaceLostCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="replaceLostCard">
+                  </a> <!-- replaceLostCard -->
+                  <span class="method-name">replaceLostCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="replaceTheLost">
+                  </a> <!-- replaceTheLost -->
+                  <span class="method-name">replaceTheLost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyBillPay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MailCheck">
+                  </a> <!-- MailCheck -->
+                  <span class="method-name">MailCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mailCheck">
+                  </a> <!-- mailCheck -->
+                  <span class="method-name">mailCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyAddSav</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToSavings">
+                  </a> <!-- AddToSavings -->
+                  <span class="method-name">AddToSavings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickConfirm">
+                  </a> <!-- clickConfirm -->
+                  <span class="method-name">clickConfirm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.SavingsScreen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MoneyToSavings">
+                  </a> <!-- MoneyToSavings -->
+                  <span class="method-name">MoneyToSavings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SavingsReminder">
+                  </a> <!-- SavingsReminder -->
+                  <span class="method-name">SavingsReminder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+          <div class="suite-V2TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">positiveTests.MoveMoneyAddSpend</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToSpending">
+                  </a> <!-- AddToSpending -->
+                  <span class="method-name">AddToSpending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-V2TestSuite-class-passed -->
+        </div> <!-- panel V2TestSuite -->
+        <div panel-name="test-xml-V2TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/w2/kpt2lt8d04n_929y8d44bkp00000gn/T/testng-eclipse-1140141059/testng-customsuite.xml</span>
+            <span class="header-content">/Users/lubna/git/V2TestSuite/ClairV2/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;V2TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;25&quot; name=&quot;RegressionTest&quot;&gt;
+    &lt;parameter name=&quot;platformVersion&quot; value=&quot;10&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;92FAY00ZVX&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;Google Pixel&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://127.0.0.1:4723/wd/hub&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;positiveTests.Signup&quot;/&gt;
+      &lt;class name=&quot;positiveTests.LogIn&quot;/&gt;
+      &lt;class name=&quot;positiveTests.CardActivation&quot;/&gt;
+      &lt;class name=&quot;positiveTests.SavingsScreen&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveToSpending&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyAddSav&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyAddSpend&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyAddCash&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyBankTransfer&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyDeleteTransfer&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyAddTransfer&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyDD&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyBillPay&quot;/&gt;
       &lt;class name=&quot;positiveTests.SettingsScreen&quot;/&gt;
+      &lt;class name=&quot;positiveTests.CardConfirmation&quot;/&gt;
+      &lt;class name=&quot;positiveTests.FreezeCard&quot;/&gt;
+      &lt;class name=&quot;positiveTests.ReplaceLostCard&quot;/&gt;
+      &lt;class name=&quot;positiveTests.ResetPassword&quot;/&gt;
+      &lt;class name=&quot;positiveTests.MoveMoneyATM&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- RegressionTest --&gt;
+&lt;/suite&gt; &lt;!-- V2TestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-V2TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for V2TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">RegressionTest (19 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-V2TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for V2TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-V2TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for V2TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_V2TestSuite');
+function tableData_V2TestSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(49);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'accessSettings')
-data.setCell(0, 2, 'positiveTests.SettingsScreen')
-data.setCell(0, 3, 34469);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'moveMoneyATM')
+data.setCell(0, 2, 'positiveTests.MoveMoneyATM')
+data.setCell(0, 3, 43756);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SavingsReminder')
+data.setCell(1, 2, 'positiveTests.SavingsScreen')
+data.setCell(1, 3, 43177);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'accessSettings')
+data.setCell(2, 2, 'positiveTests.SettingsScreen')
+data.setCell(2, 3, 35042);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ActivationPINSetting')
+data.setCell(3, 2, 'positiveTests.CardActivation')
+data.setCell(3, 3, 26297);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddToSpending')
+data.setCell(4, 2, 'positiveTests.MoveMoneyAddSpend')
+data.setCell(4, 3, 25478);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getToAddCash')
+data.setCell(5, 2, 'positiveTests.MoveMoneyAddCash')
+data.setCell(5, 3, 24049);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addRecipientBasic1')
+data.setCell(6, 2, 'positiveTests.MoveMoneyAddTransfer')
+data.setCell(6, 3, 23694);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'accessdeleteTrans')
+data.setCell(7, 2, 'positiveTests.MoveMoneyDeleteTransfer')
+data.setCell(7, 3, 23566);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'MailCheck')
+data.setCell(8, 2, 'positiveTests.MoveMoneyBillPay')
+data.setCell(8, 3, 23539);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SetUpDirectDeposit')
+data.setCell(9, 2, 'positiveTests.MoveMoneyDD')
+data.setCell(9, 3, 20961);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SsnScreen')
+data.setCell(10, 2, 'positiveTests.Signup')
+data.setCell(10, 3, 19699);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'BankTransfer')
+data.setCell(11, 2, 'positiveTests.MoveMoneyBankTransfer')
+data.setCell(11, 3, 19225);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'replaceLostCard')
+data.setCell(12, 2, 'positiveTests.ReplaceLostCard')
+data.setCell(12, 3, 18547);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'freezeCard')
+data.setCell(13, 2, 'positiveTests.FreezeCard')
+data.setCell(13, 3, 18443);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Login')
+data.setCell(14, 2, 'positiveTests.LogIn')
+data.setCell(14, 3, 16921);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ConfirmCardLogin')
+data.setCell(15, 2, 'positiveTests.CardConfirmation')
+data.setCell(15, 3, 16363);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'SignupEnterMailingAddress')
+data.setCell(16, 2, 'positiveTests.Signup')
+data.setCell(16, 3, 15482);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addRecipientBasic2')
+data.setCell(17, 2, 'positiveTests.MoveMoneyAddTransfer')
+data.setCell(17, 3, 12871);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'MoneyToSavings')
+data.setCell(18, 2, 'positiveTests.SavingsScreen')
+data.setCell(18, 3, 11829);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'mailCheck')
+data.setCell(19, 2, 'positiveTests.MoveMoneyBillPay')
+data.setCell(19, 3, 11018);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'resetPassword')
+data.setCell(20, 2, 'positiveTests.ResetPassword')
+data.setCell(20, 3, 10643);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'SignupVerifyCode')
+data.setCell(21, 2, 'positiveTests.Signup')
+data.setCell(21, 3, 10610);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'replaceTheLost')
+data.setCell(22, 2, 'positiveTests.ReplaceLostCard')
+data.setCell(22, 3, 10264);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'gonnaDelete')
+data.setCell(23, 2, 'positiveTests.MoveMoneyDeleteTransfer')
+data.setCell(23, 3, 9450);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'SignupEnterLoginInfo')
+data.setCell(24, 2, 'positiveTests.Signup')
+data.setCell(24, 3, 7774);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'freezeToggle')
+data.setCell(25, 2, 'positiveTests.FreezeCard')
+data.setCell(25, 3, 7646);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'SignupEnterPersonalInfo')
+data.setCell(26, 2, 'positiveTests.Signup')
+data.setCell(26, 3, 6167);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ActivationPwEntry')
+data.setCell(27, 2, 'positiveTests.CardActivation')
+data.setCell(27, 3, 6110);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'EmploymentScreen')
+data.setCell(28, 2, 'positiveTests.Signup')
+data.setCell(28, 3, 5796);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'scrollNow2')
+data.setCell(29, 2, 'positiveTests.Signup')
+data.setCell(29, 3, 5184);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'AddToSavings')
+data.setCell(30, 2, 'positiveTests.MoveMoneyAddSav')
+data.setCell(30, 3, 5178);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'clickBankTransferPrevRecptPerform')
+data.setCell(31, 2, 'positiveTests.MoveMoneyBankTransfer')
+data.setCell(31, 3, 4936);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'ConfirmThatCard')
+data.setCell(32, 2, 'positiveTests.CardConfirmation')
+data.setCell(32, 3, 4914);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'scrollNow4')
+data.setCell(33, 2, 'positiveTests.MoveMoneyBankTransfer')
+data.setCell(33, 3, 4820);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'scrollNow3')
+data.setCell(34, 2, 'positiveTests.MoveMoneyDD')
+data.setCell(34, 3, 3583);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'clickConfirm')
+data.setCell(35, 2, 'positiveTests.MoveMoneyAddSav')
+data.setCell(35, 3, 3131);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'clickYestoPerfBankTrans')
+data.setCell(36, 2, 'positiveTests.MoveMoneyBankTransfer')
+data.setCell(36, 3, 2747);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'clickReviewsubmit')
+data.setCell(37, 2, 'positiveTests.Signup')
+data.setCell(37, 3, 2436);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'completeAddCash')
+data.setCell(38, 2, 'positiveTests.MoveMoneyAddCash')
+data.setCell(38, 3, 2333);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'ActivateCardScreen')
+data.setCell(39, 2, 'positiveTests.CardActivation')
+data.setCell(39, 3, 2137);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'billingCont')
+data.setCell(40, 2, 'positiveTests.Signup')
+data.setCell(40, 3, 1810);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'SignupEnterPermAddress')
+data.setCell(41, 2, 'positiveTests.Signup')
+data.setCell(41, 3, 1796);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'scrollNow1')
+data.setCell(42, 2, 'positiveTests.Signup')
+data.setCell(42, 3, 1269);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'scrollNow')
+data.setCell(43, 2, 'positiveTests.Signup')
+data.setCell(43, 3, 1221);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'scrollNow5')
+data.setCell(44, 2, 'positiveTests.MoveMoneyBankTransfer')
+data.setCell(44, 3, 1209);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'finishSetupDD')
+data.setCell(45, 2, 'positiveTests.MoveMoneyDD')
+data.setCell(45, 3, 1179);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'clickInfoCont')
+data.setCell(46, 2, 'positiveTests.Signup')
+data.setCell(46, 3, 336);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'clickAddCash')
+data.setCell(47, 2, 'positiveTests.MoveMoneyAddCash')
+data.setCell(47, 3, 201);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'PerformTransfer')
+data.setCell(48, 2, 'positiveTests.MoveMoneyBankTransfer')
+data.setCell(48, 3, 199);
+window.suiteTableData['V2TestSuite']= { tableData: data, tableDiv: 'times-div-V2TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-V2TestSuite">
+              </div> <!-- times-div-V2TestSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-V2TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for V2TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-V2TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">18 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyBankTransfer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.CardActivation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.LogIn</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveToSpending</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyATM</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.FreezeCard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyAddTransfer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.SettingsScreen</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyAddCash</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyDeleteTransfer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.CardConfirmation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.ResetPassword</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyDD</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.ReplaceLostCard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyBillPay</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyAddSav</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.SavingsScreen</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">positiveTests.MoveMoneyAddSpend</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-V2TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">positiveTests.SettingsScreen</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">positiveTests.Signup</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">SignupVerifyCode</span>
+                <span class="method-start">11431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignupEnterLoginInfo</span>
+                <span class="method-start">22048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollNow</span>
+                <span class="method-start">29824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickInfoCont</span>
+                <span class="method-start">31047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignupEnterPersonalInfo</span>
+                <span class="method-start">31385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignupEnterMailingAddress</span>
+                <span class="method-start">37554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignupEnterPermAddress</span>
+                <span class="method-start">53038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollNow1</span>
+                <span class="method-start">54835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">billingCont</span>
+                <span class="method-start">56106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EmploymentScreen</span>
+                <span class="method-start">57918 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SsnScreen</span>
+                <span class="method-start">63716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollNow2</span>
+                <span class="method-start">83417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickReviewsubmit</span>
+                <span class="method-start">88603 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.LogIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">91041 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.CardActivation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ActivateCardScreen</span>
+                <span class="method-start">107964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ActivationPwEntry</span>
+                <span class="method-start">110103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ActivationPINSetting</span>
+                <span class="method-start">116215 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.SavingsScreen</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">MoneyToSavings</span>
+                <span class="method-start">142513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SavingsReminder</span>
+                <span class="method-start">154346 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyAddSav</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddToSavings</span>
+                <span class="method-start">197525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickConfirm</span>
+                <span class="method-start">202704 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyAddSpend</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddToSpending</span>
+                <span class="method-start">205837 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyAddCash</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getToAddCash</span>
+                <span class="method-start">231317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickAddCash</span>
+                <span class="method-start">255367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">completeAddCash</span>
+                <span class="method-start">255572 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyBankTransfer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BankTransfer</span>
+                <span class="method-start">257906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollNow4</span>
+                <span class="method-start">277132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickBankTransferPrevRecptPerform</span>
+                <span class="method-start">281954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollNow5</span>
+                <span class="method-start">286891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PerformTransfer</span>
+                <span class="method-start">288101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickYestoPerfBankTrans</span>
+                <span class="method-start">288302 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyDeleteTransfer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">accessdeleteTrans</span>
+                <span class="method-start">291050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">gonnaDelete</span>
+                <span class="method-start">314621 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyAddTransfer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addRecipientBasic1</span>
+                <span class="method-start">324073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addRecipientBasic2</span>
+                <span class="method-start">347769 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyDD</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SetUpDirectDeposit</span>
+                <span class="method-start">360642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollNow3</span>
+                <span class="method-start">381605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">finishSetupDD</span>
+                <span class="method-start">385189 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyBillPay</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">MailCheck</span>
+                <span class="method-start">386370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mailCheck</span>
+                <span class="method-start">409911 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.SettingsScreen</div> <!-- chronological-class-name -->
+              <div class="test-method">
                 <span class="method-name">accessSettings</span>
-                <span class="method-start">11000 ms</span>
+                <span class="method-start">420930 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.CardConfirmation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ConfirmCardLogin</span>
+                <span class="method-start">455974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ConfirmThatCard</span>
+                <span class="method-start">472339 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.FreezeCard</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">freezeCard</span>
+                <span class="method-start">477256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">freezeToggle</span>
+                <span class="method-start">495700 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.ReplaceLostCard</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">replaceLostCard</span>
+                <span class="method-start">503347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">replaceTheLost</span>
+                <span class="method-start">521899 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.ResetPassword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">resetPassword</span>
+                <span class="method-start">532164 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">positiveTests.MoveMoneyATM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">moveMoneyATM</span>
+                <span class="method-start">542809 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
