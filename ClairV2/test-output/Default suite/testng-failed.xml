@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="positiveTests.SettingsScreen">
+      <class name="positiveTests.ReplaceLostCard">
         <methods>
-          <include name="accessSettings"/>
+          <include name="replaceTheLost"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- positiveTests.SettingsScreen -->
+      </class> <!-- positiveTests.ReplaceLostCard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

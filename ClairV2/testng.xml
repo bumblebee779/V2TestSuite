@@ -12,20 +12,10 @@
       <class name="positiveTests.CardActivation"/>
       <class name="positiveTests.SavingsScreen"/>
       <class name="positiveTests.MoveToSpending"/>
-      <class name="positiveTests.MoveMoneyAddSav"/>
-      <class name="positiveTests.MoveMoneyAddSpend"/>
-      <class name="positiveTests.MoveMoneyAddCash"/>
-      <class name="positiveTests.MoveMoneyBankTransfer"/>
-      <class name="positiveTests.MoveMoneyDeleteTransfer"/>
-      <class name="positiveTests.MoveMoneyAddTransfer"/>
-      <class name="positiveTests.MoveMoneyDD"/>
-      <class name="positiveTests.MoveMoneyBillPay"/>
-      <class name="positiveTests.SettingsScreen"/>
       <class name="positiveTests.CardConfirmation"/>
       <class name="positiveTests.FreezeCard"/>
       <class name="positiveTests.ReplaceLostCard"/>
       <class name="positiveTests.ResetPassword"/>
-      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- V2TestSuite -->
