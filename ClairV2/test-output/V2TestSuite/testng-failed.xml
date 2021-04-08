@@ -7,12 +7,13 @@
     <parameter name="deviceName" value="Google Pixel"/>
     <parameter name="url" value="http://127.0.0.1:4723/wd/hub"/>
     <classes>
-      <class name="positiveTests.MoveMoneyATM">
+      <class name="positiveTests.MoveMoneyDD">
         <methods>
+          <include name="SetUpDirectDeposit"/>
           <include name="setup"/>
-          <include name="moveMoneyATM"/>
+          <include name="getToAtomic"/>
         </methods>
-      </class> <!-- positiveTests.MoveMoneyATM -->
+      </class> <!-- positiveTests.MoveMoneyDD -->
     </classes>
   </test> <!-- RegressionTest(failed) -->
 </suite> <!-- Failed suite [V2TestSuite] -->

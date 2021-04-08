@@ -7,15 +7,9 @@
              <parameter name="platformVersion" value="10" />
              <parameter name="url" value="http://127.0.0.1:4723/wd/hub" />
     <classes>
-      <class name="positiveTests.Signup"/>
-      <class name="positiveTests.LogIn"/>
-      <class name="positiveTests.CardActivation"/>
-      <class name="positiveTests.SavingsScreen"/>
-      <class name="positiveTests.MoveToSpending"/>
-      <class name="positiveTests.CardConfirmation"/>
-      <class name="positiveTests.FreezeCard"/>
-      <class name="positiveTests.ReplaceLostCard"/>
-      <class name="positiveTests.ResetPassword"/>
+     <class name="positiveTests.LogIn"/>
+     <class name="positiveTests.CardActivation"/>
+      <class name="positiveTests.MoveMoneyDD"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- V2TestSuite -->

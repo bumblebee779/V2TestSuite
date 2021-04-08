@@ -1,85 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="18" total="67" passed="48" failed="1" skipped="0">
+<testng-results ignored="2" total="11" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-12T14:33:36 EST" name="V2TestSuite" finished-at="2021-02-12T14:43:22 EST" duration-ms="586574">
+  <suite started-at="2021-04-07T21:35:50 EDT" name="V2TestSuite" finished-at="2021-04-07T21:38:39 EDT" duration-ms="169197">
     <groups>
     </groups>
-    <test started-at="2021-02-12T14:33:36 EST" name="RegressionTest" finished-at="2021-02-12T14:43:22 EST" duration-ms="586574">
-      <class name="positiveTests.MoveMoneyAddTransfer">
-        <test-method signature="addRecipientBasic1()[pri:1, instance:positiveTests.MoveMoneyAddTransfer@73ee04c8]" started-at="2021-02-12T14:39:00 EST" name="addRecipientBasic1" finished-at="2021-02-12T14:39:24 EST" duration-ms="23694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addRecipientBasic1 -->
-        <test-method signature="addRecipientBasic2()[pri:2, instance:positiveTests.MoveMoneyAddTransfer@73ee04c8]" started-at="2021-02-12T14:39:24 EST" name="addRecipientBasic2" finished-at="2021-02-12T14:39:36 EST" duration-ms="12871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addRecipientBasic2 -->
-      </class> <!-- positiveTests.MoveMoneyAddTransfer -->
+    <test started-at="2021-04-07T21:35:50 EDT" name="RegressionTest" finished-at="2021-04-07T21:38:39 EDT" duration-ms="169197">
       <class name="positiveTests.LogIn">
-        <test-method signature="Login()[pri:1, instance:positiveTests.LogIn@140c9f39]" started-at="2021-02-12T14:35:07 EST" name="Login" finished-at="2021-02-12T14:35:24 EST" duration-ms="16921" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:positiveTests.LogIn@41c2284a]" started-at="2021-04-07T21:35:50 EDT" name="setup" finished-at="2021-04-07T21:36:08 EDT" duration-ms="18252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:1, instance:positiveTests.LogIn@41c2284a]" started-at="2021-04-07T21:36:08 EDT" name="Login" finished-at="2021-04-07T21:36:31 EDT" duration-ms="22695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
       </class> <!-- positiveTests.LogIn -->
-      <class name="positiveTests.MoveMoneyBankTransfer">
-        <test-method signature="BankTransfer()[pri:1, instance:positiveTests.MoveMoneyBankTransfer@2e222612]" started-at="2021-02-12T14:37:54 EST" name="BankTransfer" finished-at="2021-02-12T14:38:13 EST" duration-ms="19225" status="PASS">
+      <class name="positiveTests.CardActivation">
+        <test-method signature="ActivateCardScreen()[pri:1, instance:positiveTests.CardActivation@53aad5d5]" started-at="2021-04-07T21:36:31 EDT" name="ActivateCardScreen" finished-at="2021-04-07T21:36:51 EDT" duration-ms="19776" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BankTransfer -->
-        <test-method signature="scrollNow4()[pri:2, instance:positiveTests.MoveMoneyBankTransfer@2e222612]" started-at="2021-02-12T14:38:13 EST" name="scrollNow4" finished-at="2021-02-12T14:38:18 EST" duration-ms="4820" status="PASS">
+        </test-method> <!-- ActivateCardScreen -->
+        <test-method signature="ActivationPINSetting()[pri:2, instance:positiveTests.CardActivation@53aad5d5]" started-at="2021-04-07T21:36:51 EDT" name="ActivationPINSetting" finished-at="2021-04-07T21:37:00 EDT" duration-ms="9680" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollNow4 -->
-        <test-method signature="clickBankTransferPrevRecptPerform()[pri:3, instance:positiveTests.MoveMoneyBankTransfer@2e222612]" started-at="2021-02-12T14:38:18 EST" name="clickBankTransferPrevRecptPerform" finished-at="2021-02-12T14:38:23 EST" duration-ms="4936" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickBankTransferPrevRecptPerform -->
-        <test-method signature="scrollNow5()[pri:4, instance:positiveTests.MoveMoneyBankTransfer@2e222612]" started-at="2021-02-12T14:38:23 EST" name="scrollNow5" finished-at="2021-02-12T14:38:24 EST" duration-ms="1209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollNow5 -->
-        <test-method signature="PerformTransfer()[pri:5, instance:positiveTests.MoveMoneyBankTransfer@2e222612]" started-at="2021-02-12T14:38:24 EST" name="PerformTransfer" finished-at="2021-02-12T14:38:24 EST" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PerformTransfer -->
-        <test-method signature="clickYestoPerfBankTrans()[pri:6, instance:positiveTests.MoveMoneyBankTransfer@2e222612]" started-at="2021-02-12T14:38:24 EST" name="clickYestoPerfBankTrans" finished-at="2021-02-12T14:38:27 EST" duration-ms="2747" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickYestoPerfBankTrans -->
-      </class> <!-- positiveTests.MoveMoneyBankTransfer -->
-      <class name="positiveTests.ReplaceLostCard">
-        <test-method signature="replaceLostCard()[pri:1, instance:positiveTests.ReplaceLostCard@3a6bb9bf]" started-at="2021-02-12T14:41:59 EST" name="replaceLostCard" finished-at="2021-02-12T14:42:18 EST" duration-ms="18547" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- replaceLostCard -->
-        <test-method signature="replaceTheLost()[pri:2, instance:positiveTests.ReplaceLostCard@3a6bb9bf]" started-at="2021-02-12T14:42:18 EST" name="replaceTheLost" finished-at="2021-02-12T14:42:28 EST" duration-ms="10264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- replaceTheLost -->
-      </class> <!-- positiveTests.ReplaceLostCard -->
-      <class name="positiveTests.MoveMoneyATM">
-        <test-method signature="moveMoneyATM()[pri:1, instance:positiveTests.MoveMoneyATM@65f095f8]" started-at="2021-02-12T14:42:39 EST" name="moveMoneyATM" finished-at="2021-02-12T14:43:22 EST" duration-ms="43756" status="FAIL">
+        </test-method> <!-- ActivationPINSetting -->
+      </class> <!-- positiveTests.CardActivation -->
+      <class name="positiveTests.MoveMoneyDD">
+        <test-method signature="SetUpDirectDeposit()[pri:1, instance:positiveTests.MoveMoneyDD@46fa7c39]" started-at="2021-04-07T21:37:00 EDT" name="SetUpDirectDeposit" finished-at="2021-04-07T21:37:39 EDT" duration-ms="38320" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lubnas-MacBook-Air.local', ip: 'fe80:0:0:0:10fa:416c:e192:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.2'
+System info: host: 'Lubnas-Air', ip: '2600:4040:1137:bb00:b0aa:10d:8b0c:d58b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.2'
 Driver info: io.appium.java_client.AppiumDriver
 Capabilities {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, databaseEnabled: false, desired: {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, deviceName: Google Pixel, platformName: android, platformVersion: 10, udid: 92FAY00ZVX}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: Pixel 3a, deviceName: 92FAY00ZVX, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: 92FAY00ZVX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 66, takesScreenshot: true, udid: 92FAY00ZVX, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 65bf66f7-ef50-42c2-8a48-8b88c816c341
-*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]}]]>
+Session ID: 7a9bb896-49f8-4da4-984f-a108aa4089d1
+*** Element info: {Using=accessibility id, value=touchableChangeDirectDepositNow}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lubnas-MacBook-Air.local', ip: 'fe80:0:0:0:10fa:416c:e192:cef1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.2'
+System info: host: 'Lubnas-Air', ip: '2600:4040:1137:bb00:b0aa:10d:8b0c:d58b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.2'
 Driver info: io.appium.java_client.AppiumDriver
 Capabilities {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, databaseEnabled: false, desired: {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, deviceName: Google Pixel, platformName: android, platformVersion: 10, udid: 92FAY00ZVX}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: Pixel 3a, deviceName: 92FAY00ZVX, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: 92FAY00ZVX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 66, takesScreenshot: true, udid: 92FAY00ZVX, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 65bf66f7-ef50-42c2-8a48-8b88c816c341
-*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]}
+Session ID: 7a9bb896-49f8-4da4-984f-a108aa4089d1
+*** Element info: {Using=accessibility id, value=touchableChangeDirectDepositNow}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -96,10 +64,8 @@ at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
 at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-at positiveTests.MoveMoneyATM.moveMoneyATM(MoveMoneyATM.java:78)
+at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+at positiveTests.MoveMoneyDD.SetUpDirectDeposit(MoveMoneyDD.java:70)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,186 +99,97 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- moveMoneyATM -->
-      </class> <!-- positiveTests.MoveMoneyATM -->
-      <class name="positiveTests.MoveMoneyDD">
-        <test-method signature="SetUpDirectDeposit()[pri:1, instance:positiveTests.MoveMoneyDD@7671cb68]" started-at="2021-02-12T14:39:36 EST" name="SetUpDirectDeposit" finished-at="2021-02-12T14:39:57 EST" duration-ms="20961" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- SetUpDirectDeposit -->
-        <test-method signature="scrollNow3()[pri:2, instance:positiveTests.MoveMoneyDD@7671cb68]" started-at="2021-02-12T14:39:57 EST" name="scrollNow3" finished-at="2021-02-12T14:40:01 EST" duration-ms="3583" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollNow3 -->
-        <test-method signature="finishSetupDD()[pri:3, instance:positiveTests.MoveMoneyDD@7671cb68]" started-at="2021-02-12T14:40:01 EST" name="finishSetupDD" finished-at="2021-02-12T14:40:02 EST" duration-ms="1179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finishSetupDD -->
-      </class> <!-- positiveTests.MoveMoneyDD -->
-      <class name="positiveTests.FreezeCard">
-        <test-method signature="freezeCard()[pri:1, instance:positiveTests.FreezeCard@10959ece]" started-at="2021-02-12T14:41:33 EST" name="freezeCard" finished-at="2021-02-12T14:41:51 EST" duration-ms="18443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- freezeCard -->
-        <test-method signature="freezeToggle()[pri:2, instance:positiveTests.FreezeCard@10959ece]" started-at="2021-02-12T14:41:51 EST" name="freezeToggle" finished-at="2021-02-12T14:41:59 EST" duration-ms="7646" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- freezeToggle -->
-      </class> <!-- positiveTests.FreezeCard -->
-      <class name="positiveTests.ResetPassword">
-        <test-method signature="resetPassword()[pri:1, instance:positiveTests.ResetPassword@34f7cfd9]" started-at="2021-02-12T14:42:28 EST" name="resetPassword" finished-at="2021-02-12T14:42:39 EST" duration-ms="10643" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPassword -->
-      </class> <!-- positiveTests.ResetPassword -->
-      <class name="positiveTests.CardConfirmation">
-        <test-method signature="ConfirmCardLogin()[pri:1, instance:positiveTests.CardConfirmation@68c72235]" started-at="2021-02-12T14:41:12 EST" name="ConfirmCardLogin" finished-at="2021-02-12T14:41:28 EST" duration-ms="16363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ConfirmCardLogin -->
-        <test-method signature="ConfirmThatCard()[pri:2, instance:positiveTests.CardConfirmation@68c72235]" started-at="2021-02-12T14:41:28 EST" name="ConfirmThatCard" finished-at="2021-02-12T14:41:33 EST" duration-ms="4914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ConfirmThatCard -->
-      </class> <!-- positiveTests.CardConfirmation -->
-      <class name="positiveTests.MoveMoneyBillPay">
-        <test-method signature="MailCheck()[pri:1, instance:positiveTests.MoveMoneyBillPay@49dc7102]" started-at="2021-02-12T14:40:02 EST" name="MailCheck" finished-at="2021-02-12T14:40:26 EST" duration-ms="23539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MailCheck -->
-        <test-method signature="mailCheck()[pri:2, instance:positiveTests.MoveMoneyBillPay@49dc7102]" started-at="2021-02-12T14:40:26 EST" name="mailCheck" finished-at="2021-02-12T14:40:37 EST" duration-ms="11018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mailCheck -->
-      </class> <!-- positiveTests.MoveMoneyBillPay -->
-      <class name="positiveTests.SavingsScreen">
-        <test-method signature="MoneyToSavings()[pri:1, instance:positiveTests.SavingsScreen@26275bef]" started-at="2021-02-12T14:35:58 EST" name="MoneyToSavings" finished-at="2021-02-12T14:36:10 EST" duration-ms="11829" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MoneyToSavings -->
-        <test-method signature="SavingsReminder()[pri:2, instance:positiveTests.SavingsScreen@26275bef]" started-at="2021-02-12T14:36:10 EST" name="SavingsReminder" finished-at="2021-02-12T14:36:53 EST" duration-ms="43177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SavingsReminder -->
-      </class> <!-- positiveTests.SavingsScreen -->
-      <class name="positiveTests.Signup">
-        <test-method is-config="true" signature="setup()[pri:0, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:33:36 EST" name="setup" finished-at="2021-02-12T14:33:47 EST" duration-ms="11390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="SignupVerifyCode()[pri:0, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:33:47 EST" name="SignupVerifyCode" finished-at="2021-02-12T14:33:58 EST" duration-ms="10610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignupVerifyCode -->
-        <test-method signature="SignupEnterLoginInfo()[pri:1, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:33:58 EST" name="SignupEnterLoginInfo" finished-at="2021-02-12T14:34:06 EST" duration-ms="7774" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignupEnterLoginInfo -->
-        <test-method signature="scrollNow()[pri:2, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:06 EST" name="scrollNow" finished-at="2021-02-12T14:34:07 EST" duration-ms="1221" status="PASS">
+        <test-method signature="scrollNow()[pri:2, instance:positiveTests.MoveMoneyDD@46fa7c39]" started-at="2021-04-07T21:37:39 EDT" name="scrollNow" finished-at="2021-04-07T21:37:43 EDT" duration-ms="4816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollNow -->
-        <test-method signature="clickInfoCont()[pri:3, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:07 EST" name="clickInfoCont" finished-at="2021-02-12T14:34:07 EST" duration-ms="336" status="PASS">
+        <test-method signature="getToAtomic()[pri:3, instance:positiveTests.MoveMoneyDD@46fa7c39]" started-at="2021-04-07T21:37:43 EDT" name="getToAtomic" finished-at="2021-04-07T21:37:59 EDT" duration-ms="15743" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Lubnas-Air', ip: '2600:4040:1137:bb00:b0aa:10d:8b0c:d58b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, databaseEnabled: false, desired: {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, deviceName: Google Pixel, platformName: android, platformVersion: 10, udid: 92FAY00ZVX}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: Pixel 3a, deviceName: 92FAY00ZVX, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: 92FAY00ZVX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 66, takesScreenshot: true, udid: 92FAY00ZVX, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a9bb896-49f8-4da4-984f-a108aa4089d1
+*** Element info: {Using=accessibility id, value=touchableLetsGo}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Lubnas-Air', ip: '2600:4040:1137:bb00:b0aa:10d:8b0c:d58b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, databaseEnabled: false, desired: {app: /Users/lubna/Downloads/clai..., appActivity: host.exp.exponent.MainActivity, appPackage: com.clair.clairpay, deviceName: Google Pixel, platformName: android, platformVersion: 10, udid: 92FAY00ZVX}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: Pixel 3a, deviceName: 92FAY00ZVX, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: 92FAY00ZVX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 66, takesScreenshot: true, udid: 92FAY00ZVX, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a9bb896-49f8-4da4-984f-a108aa4089d1
+*** Element info: {Using=accessibility id, value=touchableLetsGo}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+at positiveTests.MoveMoneyDD.getToAtomic(MoveMoneyDD.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickInfoCont -->
-        <test-method signature="SignupEnterPersonalInfo()[pri:4, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:07 EST" name="SignupEnterPersonalInfo" finished-at="2021-02-12T14:34:13 EST" duration-ms="6167" status="PASS">
+        </test-method> <!-- getToAtomic -->
+        <test-method signature="closeOutAtomic()[pri:4, instance:positiveTests.MoveMoneyDD@46fa7c39]" started-at="2021-04-07T21:37:59 EDT" name="closeOutAtomic" finished-at="2021-04-07T21:38:22 EDT" duration-ms="23015" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignupEnterPersonalInfo -->
-        <test-method signature="SignupEnterMailingAddress()[pri:5, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:13 EST" name="SignupEnterMailingAddress" finished-at="2021-02-12T14:34:29 EST" duration-ms="15482" status="PASS">
+        </test-method> <!-- closeOutAtomic -->
+        <test-method signature="scrollAgain()[pri:5, instance:positiveTests.MoveMoneyDD@46fa7c39]" started-at="2021-04-07T21:38:22 EDT" name="scrollAgain" finished-at="2021-04-07T21:38:27 EDT" duration-ms="4839" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignupEnterMailingAddress -->
-        <test-method signature="SignupEnterPermAddress()[pri:6, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:29 EST" name="SignupEnterPermAddress" finished-at="2021-02-12T14:34:31 EST" duration-ms="1796" status="PASS">
+        </test-method> <!-- scrollAgain -->
+        <test-method signature="tryAgainDD()[pri:6, instance:positiveTests.MoveMoneyDD@46fa7c39]" started-at="2021-04-07T21:38:27 EDT" name="tryAgainDD" finished-at="2021-04-07T21:38:39 EDT" duration-ms="11647" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignupEnterPermAddress -->
-        <test-method signature="scrollNow1()[pri:7, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:31 EST" name="scrollNow1" finished-at="2021-02-12T14:34:32 EST" duration-ms="1269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollNow1 -->
-        <test-method signature="billingCont()[pri:8, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:32 EST" name="billingCont" finished-at="2021-02-12T14:34:34 EST" duration-ms="1810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- billingCont -->
-        <test-method signature="EmploymentScreen()[pri:9, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:34 EST" name="EmploymentScreen" finished-at="2021-02-12T14:34:39 EST" duration-ms="5796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EmploymentScreen -->
-        <test-method signature="SsnScreen()[pri:10, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:39 EST" name="SsnScreen" finished-at="2021-02-12T14:34:59 EST" duration-ms="19699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SsnScreen -->
-        <test-method signature="scrollNow2()[pri:11, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:34:59 EST" name="scrollNow2" finished-at="2021-02-12T14:35:04 EST" duration-ms="5184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollNow2 -->
-        <test-method signature="clickReviewsubmit()[pri:12, instance:positiveTests.Signup@1f97cf0d]" started-at="2021-02-12T14:35:04 EST" name="clickReviewsubmit" finished-at="2021-02-12T14:35:07 EST" duration-ms="2436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickReviewsubmit -->
-      </class> <!-- positiveTests.Signup -->
-      <class name="positiveTests.CardActivation">
-        <test-method signature="ActivateCardScreen()[pri:1, instance:positiveTests.CardActivation@4d910fd6]" started-at="2021-02-12T14:35:24 EST" name="ActivateCardScreen" finished-at="2021-02-12T14:35:26 EST" duration-ms="2137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ActivateCardScreen -->
-        <test-method signature="ActivationPwEntry()[pri:2, instance:positiveTests.CardActivation@4d910fd6]" started-at="2021-02-12T14:35:26 EST" name="ActivationPwEntry" finished-at="2021-02-12T14:35:32 EST" duration-ms="6110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ActivationPwEntry -->
-        <test-method signature="ActivationPINSetting()[pri:3, instance:positiveTests.CardActivation@4d910fd6]" started-at="2021-02-12T14:35:32 EST" name="ActivationPINSetting" finished-at="2021-02-12T14:35:58 EST" duration-ms="26297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ActivationPINSetting -->
-      </class> <!-- positiveTests.CardActivation -->
-      <class name="positiveTests.MoveMoneyAddSpend">
-        <test-method signature="AddToSpending()[pri:1, instance:positiveTests.MoveMoneyAddSpend@77eca502]" started-at="2021-02-12T14:37:02 EST" name="AddToSpending" finished-at="2021-02-12T14:37:27 EST" duration-ms="25478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddToSpending -->
-      </class> <!-- positiveTests.MoveMoneyAddSpend -->
-      <class name="positiveTests.SettingsScreen">
-        <test-method signature="accessSettings()[pri:1, instance:positiveTests.SettingsScreen@6b8ca3c8]" started-at="2021-02-12T14:40:37 EST" name="accessSettings" finished-at="2021-02-12T14:41:12 EST" duration-ms="35042" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accessSettings -->
-      </class> <!-- positiveTests.SettingsScreen -->
-      <class name="positiveTests.MoveMoneyAddCash">
-        <test-method signature="getToAddCash()[pri:1, instance:positiveTests.MoveMoneyAddCash@3246fb96]" started-at="2021-02-12T14:37:27 EST" name="getToAddCash" finished-at="2021-02-12T14:37:51 EST" duration-ms="24049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getToAddCash -->
-        <test-method signature="clickAddCash()[pri:2, instance:positiveTests.MoveMoneyAddCash@3246fb96]" started-at="2021-02-12T14:37:51 EST" name="clickAddCash" finished-at="2021-02-12T14:37:51 EST" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickAddCash -->
-        <test-method signature="completeAddCash()[pri:3, instance:positiveTests.MoveMoneyAddCash@3246fb96]" started-at="2021-02-12T14:37:51 EST" name="completeAddCash" finished-at="2021-02-12T14:37:54 EST" duration-ms="2333" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- completeAddCash -->
-      </class> <!-- positiveTests.MoveMoneyAddCash -->
-      <class name="positiveTests.MoveMoneyDeleteTransfer">
-        <test-method signature="accessdeleteTrans()[pri:1, instance:positiveTests.MoveMoneyDeleteTransfer@61386958]" started-at="2021-02-12T14:38:27 EST" name="accessdeleteTrans" finished-at="2021-02-12T14:38:50 EST" duration-ms="23566" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accessdeleteTrans -->
-        <test-method signature="gonnaDelete()[pri:2, instance:positiveTests.MoveMoneyDeleteTransfer@61386958]" started-at="2021-02-12T14:38:50 EST" name="gonnaDelete" finished-at="2021-02-12T14:39:00 EST" duration-ms="9450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gonnaDelete -->
-      </class> <!-- positiveTests.MoveMoneyDeleteTransfer -->
-      <class name="positiveTests.MoveMoneyAddSav">
-        <test-method signature="AddToSavings()[pri:1, instance:positiveTests.MoveMoneyAddSav@7690781]" started-at="2021-02-12T14:36:53 EST" name="AddToSavings" finished-at="2021-02-12T14:36:58 EST" duration-ms="5178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddToSavings -->
-        <test-method signature="clickConfirm()[pri:2, instance:positiveTests.MoveMoneyAddSav@7690781]" started-at="2021-02-12T14:36:58 EST" name="clickConfirm" finished-at="2021-02-12T14:37:02 EST" duration-ms="3131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickConfirm -->
-      </class> <!-- positiveTests.MoveMoneyAddSav -->
+        </test-method> <!-- tryAgainDD -->
+      </class> <!-- positiveTests.MoveMoneyDD -->
     </test> <!-- RegressionTest -->
   </suite> <!-- V2TestSuite -->
 </testng-results>

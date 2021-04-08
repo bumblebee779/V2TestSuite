@@ -28,8 +28,7 @@ public class BaseClass{
 		
 		cap.setCapability("appPackage", "com.clair.clairpay");
 		cap.setCapability("appActivity", "host.exp.exponent.MainActivity");
-		cap.setCapability(MobileCapabilityType.APP, "/Users/lubna/Downloads/clair-b7ae00cf665245f9ba38f72d2226311a-signed.apk");
-		
+		cap.setCapability(MobileCapabilityType.APP, "/Users/lubna/Downloads/clair-e7453e6bf34f4d818f47c3d08593ad53-signed.apk");
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");
 		driver = new AppiumDriver<MobileElement>(url, cap);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
