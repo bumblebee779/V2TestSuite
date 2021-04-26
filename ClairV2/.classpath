@@ -36,5 +36,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/lubna/Downloads/testng-7.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/lubna/Downloads/postgresql-8.1-404.jdbc3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

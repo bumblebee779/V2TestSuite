@@ -20,7 +20,7 @@ public class LogIn extends BaseClass{
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		MobileElement e56 = (MobileElement)driver.findElementByAccessibilityId("loginInputEmail"); 
-		e56.sendKeys("lubna+56@getclair.com");;
+		e56.sendKeys("lubna+92@getclair.com");;
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		

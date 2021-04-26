@@ -2,81 +2,67 @@ package positiveTests;
 
 import java.util.concurrent.TimeUnit;
 
+import io.appium.java_client.MobileElement;
 import org.testng.annotations.Test;
 
 import helperFunctions.Scrolling;
-import io.appium.java_client.MobileElement;
 
-public class MoveMoneyDD extends BaseClass {
-	@Test (priority = 1)
-	public void SetUpDirectDeposit() {
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+public class ActionRequiredReLinkDD extends BaseClass{
+	@Test(priority = 1)
+	public void reLinkDD() {
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	
+	MobileElement Confirm1 = (MobileElement)driver.findElementByAccessibilityId("welcomeLogIn"); 
+	Confirm1.click();
+	
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	
+	MobileElement Confirm2 = (MobileElement)driver.findElementByAccessibilityId("loginInputEmail"); 
+	Confirm2.sendKeys("lubna+91@getclair.com");
+	
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	
+	MobileElement Confirm3 = (MobileElement)driver.findElementByAccessibilityId("loginInputPassword"); 
+	Confirm3.sendKeys("Anay@2020!");
+	
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	
+	MobileElement Confirm4 = (MobileElement)driver.findElementByAccessibilityId("loginPasswordEye"); 
+	Confirm4.click();
+	
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	
+	MobileElement Confirm5 = (MobileElement)driver.findElementByAccessibilityId("loginContinue"); 
+	Confirm5.click();
+	
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	
+	MobileElement Confirm7 = (MobileElement)driver.findElementByAccessibilityId("securityPreferencesDone"); 
+	Confirm7.click();
+	
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-		MobileElement e55 = (MobileElement)driver.findElementByAccessibilityId("welcomeLogIn"); 
-		e55.click();
+	MobileElement Confirm8 = (MobileElement)driver.findElementByAccessibilityId("bannerActionRequired"); 
+	Confirm8.click();
+	
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	MobileElement Confirm9 = (MobileElement)driver.findElementByAccessibilityId("actionItem1");
+	Confirm9.click();
+	
+	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-		MobileElement e56 = (MobileElement)driver.findElementByAccessibilityId("loginInputEmail"); 
-		e56.sendKeys("lubna+78@getclair.com");
-
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-
-		MobileElement e57 = (MobileElement)driver.findElementByAccessibilityId("loginInputPassword"); 
-		e57.sendKeys("Anay@2020!");
-
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-
-		MobileElement e58 = (MobileElement)driver.findElementByAccessibilityId("loginPasswordEye"); 
-		e58.click();
-
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-
-		MobileElement e59 = (MobileElement)driver.findElementByAccessibilityId("loginContinue"); 
-		e59.click();
-
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-
-		MobileElement e61 = (MobileElement)driver.findElementByAccessibilityId("securityPreferencesDone"); 
-		e61.click();
-
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); 
-
-		MobileElement bankTrans9 = (MobileElement) driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
-				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]"
-				+ "/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]"
-				+ "/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"
-				+ "/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]");
-		bankTrans9.click();
-
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
-		MobileElement bankTrans10 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
-				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]"
-				+ "/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]"
-				+ "/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"
-				+ "/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"
-				+ "/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"
-				+ "/android.view.ViewGroup[2]/android.widget.TextView[1]");
-		bankTrans10.click();
-
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-
-		MobileElement SetupDD1 = (MobileElement)driver.findElementByAccessibilityId("moveMoneySetUpDirectDeposit"); 
-		SetupDD1.click();
-
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-
-		MobileElement SetupDD2 = (MobileElement)driver.findElementByAccessibilityId("touchableChangeDirectDepositNow"); 
-		SetupDD2.click();
-	}
-
+	MobileElement Confirm10 = (MobileElement)driver.findElementByAccessibilityId("touchableTryDirectDepositAgain"); 
+	Confirm10.click();
+	
+}
 	@Test(priority = 2)
 	public void scrollNow() {
 		Scrolling scrolling = new Scrolling();
 		scrolling.scrollDownReview();
 
 	}
+	
 	@Test(priority = 3)	
 	public void getToAtomic() {
 
@@ -116,8 +102,14 @@ public class MoveMoneyDD extends BaseClass {
 		atomicDD7.click();
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
+		MobileElement bankTrans9 = (MobileElement) driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]"
+				+ "/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]"
+				+ "/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]"
+				+ "/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"
+				+ "/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]");
+		bankTrans9.click();
+		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 
@@ -125,46 +117,6 @@ public class MoveMoneyDD extends BaseClass {
 		atomicDD8.click();
 		
 		driver.resetApp();
-		
-	}
+}
 	
-		
-		
-		}
-		
-		
-		
-		
-
-
-
-	//		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-	//		
-	//		MobileElement SetupDD2 = (MobileElement)driver.findElementByAccessibilityId("eyeIconLeft"); 
-	//		SetupDD2.click();
-	//		
-	//	}
-	//	@Test (priority = 2)
-	//	public void scrollNow3() {
-	//		Scrolling scrolling = new Scrolling();
-	//		scrolling.scrollDown();
-	//		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-	//		
-	//		MobileElement SetupDD3 = (MobileElement)driver.findElementByAccessibilityId("getDirectDepositForm"); 
-	//		SetupDD3.click();
-	//		
-	//		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-	//		
-	//		MobileElement SetupDD4 = (MobileElement)driver.findElementByAccessibilityId("alertScreenPrimaryButton"); 
-	//		SetupDD4.click();
-	//		
-	//	}
-	//	
-	//	@Test (priority = 3)
-	//	public void finishSetupDD() {
-	//		
-	//		driver.resetApp();
-	//		
-
-
-
+}

@@ -5,9 +5,9 @@
     <classes>
       <class name="positiveTests.MoveMoneyDD">
         <methods>
-          <include name="tryAgainDD"/>
+          <include name="SetUpDirectDeposit"/>
           <include name="setup"/>
-          <include name="closeOutAtomic"/>
+          <include name="getToAtomic"/>
         </methods>
       </class> <!-- positiveTests.MoveMoneyDD -->
     </classes>

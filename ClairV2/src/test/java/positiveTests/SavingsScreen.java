@@ -6,8 +6,16 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.MobileElement;
 
+
+
 public class SavingsScreen extends BaseClass{
-	@Test(priority=1)
+	@Test (priority=1)
+	public void Login() {
+		LogIn login = new LogIn();
+		login.Login();
+	}
+	
+	@Test(priority=2)
 	public void MoneyToSavings() {
 		
 		//click the Savings account box on Home screen
@@ -51,7 +59,7 @@ public class SavingsScreen extends BaseClass{
 		driver.resetApp();
 		}
 	
-	@Test (priority = 2)
+	@Test (priority = 3)
 	public void SavingsReminder() {
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -71,7 +79,7 @@ public class SavingsScreen extends BaseClass{
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
-		MobileElement clickButton = (MobileElement)driver.findElementByAccessibilityId("leftIconWeekly");
+		MobileElement clickButton = (MobileElement)driver.findElementByAccessibilityId("leftIconDaily");
 		clickButton.click();
 		
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);

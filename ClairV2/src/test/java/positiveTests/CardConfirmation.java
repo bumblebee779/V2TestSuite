@@ -18,7 +18,7 @@ public class CardConfirmation extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		MobileElement confirmLogin2 = (MobileElement)driver.findElementByAccessibilityId("loginInputEmail"); 
-		confirmLogin2.sendKeys("lubna+92@getclair.com");;
+		confirmLogin2.sendKeys("lubna+90@getclair.com");;
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		

@@ -43,11 +43,6 @@ public class MoveToSpending extends BaseClass{
 		
 		driver.resetApp();
 		
-		LogIn login3 = new LogIn();
-		login3.Login();
-		
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		
 	}
 
 

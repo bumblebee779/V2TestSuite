@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="V2TestSuite">
-  <test thread-count="25" name="RegressionTest" preserve-order="true">
-  <parameter name="deviceName" value="Google Pixel" />
-             <parameter name="udid" value="92FAY00ZVX" />
-             <parameter name="platformVersion" value="10" />
-             <parameter name="url" value="http://127.0.0.1:4723/wd/hub" />
-    <classes>
-     <class name="positiveTests.LogIn"/>
-     <class name="positiveTests.CardActivation"/>
-      <class name="positiveTests.MoveMoneyDD"/>
-    </classes>
-  </test> <!-- Test -->
+	<test thread-count="25" name="RegressionTest"
+		preserve-order="true">
+		<parameter name="deviceName" value="Google Pixel" />
+		<parameter name="udid" value="92FAY00ZVX" />
+		<parameter name="platformVersion" value="10" />
+		<parameter name="url" value="http://127.0.0.1:4723/wd/hub" />
+		<classes>
+			<class name="positiveTests.SettingsScreen"/>
+			<class name="positiveTests.LogIn" />
+			<class name="positiveTests.CardActivation" />
+			<class name="positiveTests.MoveMoneyDD" />
+			<class name="positiveTests.SavingsScreen" />
+			<class name="positiveTests.MoveToSpending" />
+			<class name="positiveTests.MoveMoneyAddSav" />
+			<class name="positiveTests.MoveMoneyAddSpend" />
+			<class name="positiveTests.MoveMoneyAddCash" />
+			<class name="positiveTests.MoveMoneyAddTransfer" />
+			<class name="positiveTests.MoveMoneyBankTransfer" />
+			<class name="positiveTests.MoveMoneyDeleteTransfer" />
+			<class name="positiveTests.MoveMoneyBillPay" />
+			<class name="positiveTests.CardConfirmation" />
+			<class name="positiveTests.ActionRequiredCardActivate" />
+			<class name="positiveTests.ActionRequiredConfirmCard" />
+			<class name="positiveTests.ActionRequiredReLinkDD" />
+			<class name="positiveTests.FreezeCard" />
+			<class name="positiveTests.EWASuccess" />
+			<class name="positiveTests.ResetPassword" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- V2TestSuite -->
