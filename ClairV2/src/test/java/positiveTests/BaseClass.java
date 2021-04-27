@@ -1,7 +1,14 @@
 package positiveTests;
 
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
+import dbManagement.DBConnect;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -12,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class BaseClass{
+public class BaseClass extends DBConnect{
 	
 	public static AppiumDriver<MobileElement> driver;
 	@BeforeTest
@@ -36,4 +43,11 @@ public class BaseClass{
 
 	}
 	
+	@AfterSuite
+	public void executeQuery() throws Exception {
+		DBConnect Q1 = new DBConnect();
+		Q1.getAnswerFromDB();
+		
+	
+}
 }
