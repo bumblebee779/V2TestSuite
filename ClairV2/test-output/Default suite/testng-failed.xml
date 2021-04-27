@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="positiveTests.MoveMoneyDD">
+      <class name="positiveTests.ActionRequiredReLinkDD">
         <methods>
-          <include name="SetUpDirectDeposit"/>
-          <include name="setup"/>
           <include name="getToAtomic"/>
+          <include name="setup"/>
+          <include name="executeQuery"/>
         </methods>
-      </class> <!-- positiveTests.MoveMoneyDD -->
+      </class> <!-- positiveTests.ActionRequiredReLinkDD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
