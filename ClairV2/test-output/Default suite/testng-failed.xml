@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="positiveTests.ActionRequiredReLinkDD">
+      <class name="positiveTests.CardConfirmation">
         <methods>
-          <include name="getToAtomic"/>
           <include name="setup"/>
+          <include name="ConfirmThatCard"/>
           <include name="executeQuery"/>
         </methods>
-      </class> <!-- positiveTests.ActionRequiredReLinkDD -->
+      </class> <!-- positiveTests.CardConfirmation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
