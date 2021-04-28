@@ -41,7 +41,7 @@ public class ActionRequiredConfirmCard extends BaseClass{
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-		MobileElement Confirm8 = (MobileElement)driver.findElementByAccessibilityId("bannerActionRequired"); 
+		MobileElement Confirm8 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"); 
 		Confirm8.click();
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
