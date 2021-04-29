@@ -10,7 +10,6 @@
 		<classes>
 		    <class name="positiveTests.ActionRequiredCardActivate" />
 			<class name="positiveTests.ActionRequiredReLinkDD" />
-			<class name="positiveTests.ActionRequiredConfirmCard" />
 			<class name="positiveTests.SettingsScreen"/>
 			<class name="positiveTests.FreezeCard" />
 			<class name="positiveTests.EWASuccess" />

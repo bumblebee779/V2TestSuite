@@ -7,20 +7,35 @@
     <parameter name="deviceName" value="Google Pixel"/>
     <parameter name="url" value="http://127.0.0.1:4723/wd/hub"/>
     <classes>
-      <class name="positiveTests.EWASuccess">
+      <class name="positiveTests.MoveMoneyAddCash">
         <methods>
-          <include name="EWA"/>
+          <include name="clickAddCash"/>
+          <include name="getToAddCash"/>
+          <include name="setup"/>
+          <include name="completeAddCash"/>
+          <include name="executeQuery"/>
+        </methods>
+      </class> <!-- positiveTests.MoveMoneyAddCash -->
+      <class name="positiveTests.CardConfirmation">
+        <methods>
+          <include name="ConfirmThatCard1"/>
+          <include name="scrollNowTwice"/>
+          <include name="AccessBanner"/>
+          <include name="setup"/>
+          <include name="ConfirmCardLogin2"/>
+          <include name="ConfirmCardLogin1"/>
+          <include name="ConfirmThatCard"/>
+          <include name="clickConfirmPart"/>
+          <include name="executeQuery"/>
+        </methods>
+      </class> <!-- positiveTests.CardConfirmation -->
+      <class name="positiveTests.MoveMoneyAddSpend">
+        <methods>
+          <include name="AddToSpending"/>
           <include name="setup"/>
           <include name="executeQuery"/>
         </methods>
-      </class> <!-- positiveTests.EWASuccess -->
-      <class name="positiveTests.ActionRequiredReLinkDD">
-        <methods>
-          <include name="getToAtomic"/>
-          <include name="setup"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.ActionRequiredReLinkDD -->
+      </class> <!-- positiveTests.MoveMoneyAddSpend -->
       <class name="positiveTests.MoveMoneyAddTransfer">
         <methods>
           <include name="addRecipientBasic1"/>
@@ -57,13 +72,6 @@
           <include name="executeQuery"/>
         </methods>
       </class> <!-- positiveTests.MoveMoneyDeleteTransfer -->
-      <class name="positiveTests.LogIn">
-        <methods>
-          <include name="setup"/>
-          <include name="executeQuery"/>
-          <include name="Login"/>
-        </methods>
-      </class> <!-- positiveTests.LogIn -->
       <class name="positiveTests.MoveMoneyBillPay">
         <methods>
           <include name="MailCheck"/>
@@ -72,14 +80,6 @@
           <include name="executeQuery"/>
         </methods>
       </class> <!-- positiveTests.MoveMoneyBillPay -->
-      <class name="positiveTests.FreezeCard">
-        <methods>
-          <include name="freezeToggle"/>
-          <include name="setup"/>
-          <include name="freezeCard"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.FreezeCard -->
       <class name="positiveTests.SavingsScreen">
         <methods>
           <include name="SavingsReminder"/>
@@ -89,73 +89,6 @@
           <include name="executeQuery"/>
         </methods>
       </class> <!-- positiveTests.SavingsScreen -->
-      <class name="positiveTests.ResetPassword">
-        <methods>
-          <include name="setup"/>
-          <include name="resetPassword"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.ResetPassword -->
-      <class name="positiveTests.MoveMoneyAddCash">
-        <methods>
-          <include name="clickAddCash"/>
-          <include name="getToAddCash"/>
-          <include name="setup"/>
-          <include name="completeAddCash"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyAddCash -->
-      <class name="positiveTests.CardActivation">
-        <methods>
-          <include name="ActivationPINSetting"/>
-          <include name="setup"/>
-          <include name="executeQuery"/>
-          <include name="ActivateCardScreen"/>
-        </methods>
-      </class> <!-- positiveTests.CardActivation -->
-      <class name="positiveTests.CardConfirmation">
-        <methods>
-          <include name="ConfirmThatCard1"/>
-          <include name="scrollNowTwice"/>
-          <include name="AccessBanner"/>
-          <include name="setup"/>
-          <include name="ConfirmCardLogin2"/>
-          <include name="ConfirmCardLogin1"/>
-          <include name="ConfirmThatCard"/>
-          <include name="clickConfirmPart"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.CardConfirmation -->
-      <class name="positiveTests.MoveMoneyAddSpend">
-        <methods>
-          <include name="AddToSpending"/>
-          <include name="setup"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyAddSpend -->
-      <class name="positiveTests.MoveMoneyDD">
-        <methods>
-          <include name="scrollNow"/>
-          <include name="SetUpDirectDeposit"/>
-          <include name="setup"/>
-          <include name="getToAtomic"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.MoveMoneyDD -->
-      <class name="positiveTests.ActionRequiredConfirmCard">
-        <methods>
-          <include name="accessConfirmNow"/>
-          <include name="setup"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.ActionRequiredConfirmCard -->
-      <class name="positiveTests.SettingsScreen">
-        <methods>
-          <include name="accessSettings"/>
-          <include name="setup"/>
-          <include name="executeQuery"/>
-        </methods>
-      </class> <!-- positiveTests.SettingsScreen -->
     </classes>
   </test> <!-- RegressionTest(failed) -->
 </suite> <!-- Failed suite [V2TestSuite] -->

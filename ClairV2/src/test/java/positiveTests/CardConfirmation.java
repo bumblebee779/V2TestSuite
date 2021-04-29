@@ -18,7 +18,7 @@ public class CardConfirmation extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		MobileElement confirmLogin2 = (MobileElement)driver.findElementByAccessibilityId("loginInputEmail"); 
-		confirmLogin2.sendKeys("charliechaplin@choco.la");;
+		confirmLogin2.sendKeys("charliechaplin@choco.la");
 		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
@@ -166,31 +166,36 @@ public class CardConfirmation extends BaseClass {
 			
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			
-			MobileElement confirmCard1 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]");
-			confirmCard1.click();
+			MobileElement troubleShootBack2 = (MobileElement)driver.findElementByAccessibilityId("backButton"); 
+			troubleShootBack2.click();
+			
+			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+			
+			MobileElement confirmCard11 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]");
+			confirmCard11.click();
 			
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			
 			
-			MobileElement confirmCard2 = (MobileElement)driver.findElementByAccessibilityId("cardArrivalLetUsKnow"); 
-			confirmCard2.click();
+			MobileElement confirmCard12 = (MobileElement)driver.findElementByAccessibilityId("cardArrivalLetUsKnow"); 
+			confirmCard12.click();
 			
-			MobileElement confirmCard3 = (MobileElement)driver.findElementByAccessibilityId("verifyAddressConfirm"); 
-			confirmCard3.click();
+			MobileElement confirmCard13 = (MobileElement)driver.findElementByAccessibilityId("verifyAddressConfirm"); 
+			confirmCard13.click();
 			
-			
-			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-			
-			MobileElement confirmCard4 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[2]");
-			confirmCard4.click();
-			
-			MobileElement confirmCard5 = (MobileElement)driver.findElementByAccessibilityId("cardArrivalActivate"); 
-			confirmCard5.click();
 			
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			
-			MobileElement confirmCard6 = (MobileElement)driver.findElementByAccessibilityId("alertScreenPrimaryButton"); 
-			confirmCard6.click();
+			MobileElement confirmCard14 = (MobileElement)driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[2]");
+			confirmCard14.click();
+			
+			MobileElement confirmCard15 = (MobileElement)driver.findElementByAccessibilityId("cardArrivalActivate"); 
+			confirmCard15.click();
+			
+			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+			
+			MobileElement confirmCard16 = (MobileElement)driver.findElementByAccessibilityId("alertScreenPrimaryButton"); 
+			confirmCard16.click();
 			
 			driver.resetApp();
 			
