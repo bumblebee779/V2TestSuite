@@ -13,6 +13,7 @@ import io.appium.java_client.MobileElement;
 
 public class CardActivation extends BaseClass {
 	
+	@Test(priority = 0)
 	public void nullConfirm() throws Exception {
 		DBConnect Q2 = new DBConnect();
 		Q2.removeConfirm();
